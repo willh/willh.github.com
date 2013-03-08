@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Will Hamill
-tagline: Unhandled NoWittyTagLineException caught
+tagline: Unhandled NoWittyTaglineException
 ---
 {% include JB/setup %}
 
