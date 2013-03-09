@@ -1,7 +1,7 @@
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
-  max-width: 700px; }
+  max-width: 800px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
@@ -63,3 +63,13 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/* customised index layout */
+.posts .summary .date {
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.posts div.summary {
+  margin-top: 30px;
+}

@@ -13,7 +13,7 @@ title : Will's Blog
 tagline: Unhandled NoWittyTaglineException
 author :
   name : Will Hamill
-  email : blog@willhamill.com
+  email : will@willhamill.com
   github : willh
   twitter : willhamill
   # feedburner : feedname
@@ -67,6 +67,8 @@ JB :
   #
   ASSET_PATH : false
 
+  IMAGE_PATH : ../../../../assets/images
+
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
@@ -101,7 +103,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-39167602-1'
     getclicky :
       site_id : 
     mixpanel :
