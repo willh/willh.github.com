@@ -10,6 +10,8 @@ I'm a developer working at [Kainos](http://www.kainos.com) primarily in systems 
 
 Currently I am working on site in London but I'm originally from Belfast in Northern Ireland, which explains the suspicious accent.
 
+Boring disclaimer: You'd be mad to think that the views expressed in my blog necessarily reflect the views of my employer, our customers/clients/partners. That's crazy.
+
 ###LinkedIn
 
 I have a profile on [LinkedIn](http://www.linkedin.com/in/willhamill)
