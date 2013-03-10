@@ -7,8 +7,8 @@ tags: ["abstraction", "http", "web", "cloud", "architecture", "rest", "api", "cl
 ---
 {% include JB/setup %}
 
-####Keynote - The Power of Abstraction
-by Barbara Liskov
+####Opening Keynote - The Power of Abstraction
+*by Barbara Liskov*
 
 The keynote was given by Barbara Liskov (of the [Liskov Substitution Principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle)) on The Power of Abstraction.
 
@@ -19,7 +19,7 @@ Rather than transcribe notes for the keynote, I thought instead I would include 
 ____
 
 ####Web Development - You're Doing It Wrong 
-by Stefan Tilkov
+*by Stefan Tilkov*
 
 At the start of the talk, Stefan listed common antipatterns and what he saw as irrational complaints about HTTP and the Web. This included working around its statelessness, preventing browser functionality (e.g. opening multiple windows of the same site, breaking back button use, reventing refresh of the page, etc), making ads and images load before article content, and so on. At this point in the talk a guy came in and sat down next to me and having not seen the context of the opening began to write down the antipatterns as advice on his page of notes...
 
@@ -36,9 +36,9 @@ The use of unobtrusive JavaScript enables progressive enhancement, separation of
 ____
 
 ####Clouds in Government - Perils of Portability
-by Gareth Rushgrove
+*by Gareth Rushgrove*
 
-In the first half of this session, Gareth described the origin and purpose of Government Digital Services (GDS) and how they have been changing the way the UK government creates and procures digital services. Whilst this is an utter breath of fresh air compared to most people's mental picture created by any terms like "online government system" picture I didn't actually take a great deal of notes here because I've had the great pleasure and opportunity to work with GDS during my work with Kainos.
+In the first half of this session, Gareth described the origin and purpose of Government Digital Services (GDS) and how they have been changing the way the UK government creates and procures digital services. Whilst this is an utter breath of fresh air compared to most people's mental picture created by any terms like "online government system", I didn't actually take a great deal of notes here because I've had the great pleasure and opportunity to work with GDS during my work with Kainos.
 
 Gareth described the deployment process for GOV.UK, the new front page for the UK government designed to replace and improve upon DirectGov and BusinessLink. The deployment pipeline treats configuration and networking as code, including configuration management and automation using Puppet. It's clear that automation has resulted in a very safe and low-friction deployment process as evidenced by the frequency and stability of GOV.UK releases. Check out the [GDS Badger of Deploy](https://twitter.com/GDS_Badger) on Twitter to see that they've made 848 production releases since launch in the 17th of October. Impressive!
 
@@ -51,7 +51,7 @@ Gareth also talked about cloud abstraction libraries such as Fog and JClouds whi
 ____
 
 ####Road to REST
-by Rickard Oberg
+*by Rickard Oberg*
 
 Rickard made an impassioned defence of the principles underlying REST and their usefulness, and asked one thing of the attendees: if your application communicates with your API in a way that isn't actually RESTful - please stop calling it rest!
 
@@ -68,7 +68,7 @@ Rickard argued that exposing the domain model was undesirable as it exposes impl
 ____
 
 ####You Are Not (Only) A Developer! - Simplicity In Practice
-by Russel Miles
+*by Russel Miles*
 
 Russel's talk was quite narrative and described common mistakes made when development teams get bogged down in implementation and the drive for productivity. Russel used an [impact mapping](http://www.impactmapping.org) approach throughout the talk to derive the valuable goals for our efforts, and urged that we draw out assumptions between our current state and the desired end goal, so that the can be tested.
 
@@ -79,7 +79,7 @@ Fundamentally, Russel made the point that we are involved not to produce softwar
 ____
 
 ####Racing Through The Last Mile - Cloud Delivery and Web-Scale
-by Alex Papadimoulis
+*by Alex Papadimoulis*
 
 Alex's talk was an interesting look at the difference between typical, smaller, enterprise deployment and 'web-scale' deployment. Web-scale is the term used to describe the scope and size of the challenges encountered by platforms and products used by and served to vastly more users than typical applications. Think Facebook, Google, Twitter and Netflix - the problems they encounter trying to design and maintain systems for millions or billions of people are quite different to those encountered by an in-house enterprise application developer responsible for deploying their 'customer portal' or the likes to another thousand users.
 
@@ -91,3 +91,19 @@ Alex argued that the best way to reduce pain in deployment is to do it often, an
 
 Rollbacks are often a cause of great pain in deployments, but I agree with Alex that the best way to do a rollback is not to create custom rollback scripts and reverse-deltas, but instead to run the deployment process for the previous, working version of the app (and that way you know the process is tested much more often).
 
+____
+
+####Evening Keynote - Fun With Dead Languages
+*by Damian Conway*
+
+Damian Conway is a well-known speaker and Perl programmer, and the keynote closing session of the first day of QCon was about the need for diversity of implementation to encourage diversion of thought. Using the example of the death of the Gros Michel banana from Panama Disease due to a lack of diversity (and the resulting reliance on the reportedly less-delicious Cavendish), Damian encouraged use of alternative programming languages and styles to get a different perspective on the methods that we know and use most often.
+
+Damian lamented that modern computing education splits itself into seven or eight major topics and then teaches each one in Java instead of illustrating each area with perhaps something that could broaden perspectives beyond the typical Object-Oriented 101 approach. Damian coined Thor's Law - "Just because you know how to use one great big coding hammer doesn't make you a programming God", evocative of [Maslow's Hammer](http://en.wikipedia.org/wiki/Maslow's_hammer).
+
+Damian demonstrated some diversity in style by using PostScript, a declarative language (old school!), to write a program that determines the value of Pi by declaring functions and using the stack to store function results, as it has no variables or methods (much like how compiled code *actually* works deep down in the plumbing, underneath all the abstraction). As a bonus, because the only common use of PostScript these days is in printers, you can still write this program and send its source file to most office printers and have them actually print out increasingly accurate estimates of Pi.
+
+Damian also illustrated translating a C++ implementation of [Eratosthenes' Sieve](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) into Latin (yes, *Latin*) to show how the need for ordering of variables and method operators could be removed through the use of different inflexions on the nouns being used - when you have a suffix at the end of a variable telling you it is being operated on, and a suffix on another telling you that it is operating on something then the ordering doesn't matter any more. This part of the talk was fantastically entertaining and ended with a demonstration of the actual program written in Latin and executing to produce the prime numbers up to CCLV (that's 225 for us non-Latin types).
+
+Further reading: Damian is the author of the [CPAN module](http://search.cpan.org/~dconway/Lingua-Romana-Perligata-0.50/lib/Lingua/Romana/Perligata.pm) [Lingua::Romana::Perligata](http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html) which I came across a few years ago which allows Perl users to write their code actually using Latin. When I asked Damian if he'd every deployed any code into production using Latin he said that he hadn't, but that a few Perl devs from Romania had written their website using it!
+
+____
