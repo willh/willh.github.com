@@ -96,7 +96,7 @@ ____
 ####Evening Keynote - Fun With Dead Languages
 *by Damian Conway*
 
-Damian Conway is a well-known speaker and Perl programmer, and the keynote closing session of the first day of QCon was about the need for diversity of implementation to encourage diversion of thought. Using the example of the death of the Gros Michel banana from Panama Disease due to a lack of diversity (and the resulting reliance on the reportedly less-delicious Cavendish), Damian encouraged use of alternative programming languages and styles to get a different perspective on the methods that we know and use most often.
+Damian Conway is a well-known speaker and Perl programmer, and the keynote closing session of the first day of QCon was about the need for diversity of implementation to encourage diversity of thought. Using the example of the death of the Gros Michel banana from Panama Disease due to a lack of diversity (and the resulting reliance on the reportedly less-delicious Cavendish), Damian encouraged use of alternative programming languages and styles to get a different perspective on the methods that we know and use most often.
 
 Damian lamented that modern computing education splits itself into seven or eight major topics and then teaches each one in Java instead of illustrating each area with perhaps something that could broaden perspectives beyond the typical Object-Oriented 101 approach. Damian coined Thor's Law - "Just because you know how to use one great big coding hammer doesn't make you a programming God", evocative of [Maslow's Hammer](http://en.wikipedia.org/wiki/Maslow's_hammer).
 
