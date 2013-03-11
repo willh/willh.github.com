@@ -3,7 +3,7 @@ layout: post
 title: "QCon London 2013 - Day One"
 description: "The first day of QCon London 2013 featuring opening keynote by Barbara Liskov, closing keynote by Damian Conway, talks by Stefan Tilkov, Gareth Rushgrove, Rickard Oberg, Russel Miles, and Alex Papadimoulis"
 category: 
-tags: ["abstraction", "http", "web", "cloud", "architecture", "rest", "api", "cloud", "deployment"]
+tags: ["abstraction", "http", "web", "cloud", "architecture", "rest", "api", "cloud", "gds", "deployment"]
 ---
 {% include JB/setup %}
 
