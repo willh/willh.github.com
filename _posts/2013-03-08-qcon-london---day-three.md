@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "QCon London 2013 - Day Three"
-description: "The third day of QCon London 2013 featuring opening keynote from Ward Cunningham, talks from David Dawson &amp; Justin Holmes, Matt Asay, Mat Wall, Martijn Verburg &amp; Zoe Slattery, and Douwe Osinga &amp; Jon Tirsen"
+description: "The third day of QCon London 2013 featuring opening keynote from Ward Cunningham, talks from David Dawson &amp; Justin Holmes, Matt Asay, Mat Wall, Martijn Verburg &amp; Kim Ross, and Douwe Osinga &amp; Jon Tirsen"
 category: 
 tags: ["qcon", "conference", "wiki", "play", "grails", "nosql", "mongodb", "gds", "architecture", "agile", "recruitment", "culture"]
 ---
@@ -62,15 +62,15 @@ This is quite a bit farther than most teams developing components can take the a
 ____
 
 ###NoHR Hiring
-*by Martijn Verburg & Zoe Slattery*
+*by Martijn Verburg & Kim Ross*
 
-This session on 'NoHR hiring' was titled as a pun on NoSQL, and was given with the different viewpoints of someone from HR and a tech lead. A lot of the material covered was the kind of stuff that makes sense but often falls out of the process when formalised, homogenised and passed through various compliance and legal filters. In this discussion Zoe and Martijn described important ways to focus on seeking out getting the right people.
+This session on 'NoHR hiring' was titled as a pun on NoSQL. A lot of the material covered was the kind of stuff that makes sense but often falls out of the process when formalised, homogenised and passed through various compliance and legal filters. In this discussion Kim and Martijn described important ways to focus on seeking out getting the right people.
 
 When assessing a CV, often given the template nature and the somewhat boring list of technology acronyms it can be easier to tell whether the person fits and actually cares about applying for the job from their cover letter. Unfortunately when using external recruiters this won't be included and the CV may be reformatted (or worse) to fit their template. However a good cover letter can tell the business that a candidate has actually investigated what it is that the business does, what they expect from the job and in plain English tells a little more than the '10 years Java, 5 years .Net' does.
 
-Analysing a candidate's CV is a great way to derive questions for an interview. Use the technologies they've listed or the projects they've worked on to ask open ended and relevant questions. By relevant, Zoe and Martijn mean to avoid the kind of gimmicky "how would you implement a merge sort" basic algorithmic questions (unless the job in question actually relies upon this kind of very low level algorithmic knowledge), or something that any real developer will likely just turn to Google to answer when doing their day job.
+Analysing a candidate's CV is a great way to derive questions for an interview. Use the technologies they've listed or the projects they've worked on to ask open ended and relevant questions. By relevant, Kim and Martijn mean to avoid the kind of gimmicky "how would you implement a merge sort" basic algorithmic questions (unless the job in question actually relies upon this kind of very low level algorithmic knowledge), or something that any real developer will likely just turn to Google to answer when doing their day job.
 
-In a telephone interview Zoe warned not to answer closed questions that could be quickly Googled while the candidate stalls, which is a good suggestion. I'm personally not a fan of phone interviews after having had one before and being unable to gauge impressions from the body language and explain myself better, as the phone is quite awkward compared to a face to face interview in my opinion.
+In a telephone interview Kim warned not to answer closed questions that could be quickly Googled while the candidate stalls, which is a good suggestion. I'm personally not a fan of phone interviews after having had one before and being unable to gauge impressions from the body language and explain myself better, as the phone is quite awkward compared to a face to face interview in my opinion.
 
 When assessing candidates, logical questions and process-flow style challenges can be more useful than coding assessments as they test the problem solving thought process rather than syntax and language semantics which change from language to language and are easy to get wrong on a whiteboard (especially without your IDE/compiler). I'm of the opinion that any kind of coding question should be something very easily displayed in pseudocode but that the process by which the candidate asks clarification questions and goes about solving the problem is more interesting than the solution.
 
@@ -78,11 +78,13 @@ Martijn mentioned the utility of checking up public profiles on Github and Stack
 
 In terms of judging the candidate at interview it's very important to have a technical person in the interview (most tech companies do this already) and if possible, someone on the team for which the opening is being advertised. Fundamentally after all the logic tests, CV questions, "tell us a time you had to deal with problems on a project" style stuff you should be asking yourself the most important question: "would I want to work with this person?" I think this is sterling advice and especially in the area of software development when people mistakenly think that technical savvy is the be-all and end-all, it's really the team dynamic and the communication and interactions that make a great co-worker. I'd rather hire someone personable, enthusiastic and thirsty for knowledge who needs trained up in the technology than That Guy who is an absolute guru and can't stand people.
 
-Zoe and Martijn also argued that many businesses don't make it easy on themselves by way of creating uselessly vague or acronym-drenched job specs, without going into much effort to actually attract, inform and convince candidates why they should work there. I think this is certainly an interesting point given that the current job market makes it easy for someone in development to find employment and for someone aware of their worth to turn down a business that isn't selling itself as a place that talent should converge and flourish.
+Kim and Martijn also argued that many businesses don't make it easy on themselves by way of creating uselessly vague or acronym-drenched job specs, without going into much effort to actually attract, inform and convince candidates why they should work there. I think this is certainly an interesting point given that the current job market makes it easy for someone in development to find employment and for someone aware of their worth to turn down a business that isn't selling itself as a place that talent should converge and flourish.
 
 When hiring, it's important to do your best to make the job spec descriptive of what the *actual day job* entails. It's likely that both the HR and Legal departments are going to filter anything that is produced so trying to make it representative of what's actually involved will allow candidates to make better educated decisions. Describe what a developer on your team actually does day to day, who the interact with and what kind of problems they solve without just jumping into the "HTML/CSS/JS/ASP MVC" response. How do your teams actually work? Do they do agile? Are they distributed? Do they interact with business/customers? What are the salary and benefits like? What's the working environment like - cubicles and silence or team rooms and interaction?
 
-Zoe and Martijn also described how as a business getting involved in the developer community has no drawbacks but great advantages in terms of getting your brand and your work out in front of exactly the kind of people you want to hire. Attending or sponsoring user groups and conferences is especially a good way to get exposure from the most talented and engaged people - who are inevitably already employed!
+Kim and Martijn also described how as a business getting involved in the developer community has no drawbacks but great advantages in terms of getting your brand and your work out in front of exactly the kind of people you want to hire. Attending or sponsoring user groups and conferences is especially a good way to get exposure from the most talented and engaged people - who are inevitably already employed!
+
+**Correction:** This post originally stated the talk was by Martijn Verburg & Zoe Slattery, but Zoe was substituted with Kim Ross. Kim is not from HR as mentioned and is in fact a developer. Apologies for any confusion!
 
 ____
 
