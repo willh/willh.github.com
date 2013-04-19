@@ -30,5 +30,7 @@ I think that the reason abandoning sprints is the only option other than ignorin
 
 I would prefer that the requirement is accepted into the sprint and that a greater-sized requirement is pushed out in return (to account for overhead of new estimation and context switch), and the reasons for why this unusual circumstance occurred were discussed with the customer and team during retrospective and end of iteration demo. Find out what the team thought of the change and how disruptive it was and communicate this clearly back to whoever insisted upon it, and ensure that this is a rare event.
 
+Overall I favour shorter sprints to address this, especially if you have trouble with often being interrupted. The more frequently that the team can react to change and the more frequently you can inspect and adapt the better.
+
 How do you handle sudden changes in requirements on your projects? Do you interrupt, ignore or abandon? Or are you using a more continuous process like Kanban, which could perhaps be better at dealing with this?
 
