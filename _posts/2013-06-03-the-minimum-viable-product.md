@@ -19,7 +19,7 @@ The software we produced (hosted on [Heroku](http://www.heroku.com) for demo and
 
 *So what good is it then?*
 
-It is a [Minimum Viable Product](http://en.wikipedia.org/wiki/Minimum_viable_product). Just enough to allow Dr Henning to test his hypothesis that creating an application using a more intuitive and a simpler design with an easily correlated and viewed data set for him to view the data will result in: 
+It is a [Minimum Viable Product](http://en.wikipedia.org/wiki/Minimum_viable_product). Just enough to allow Dr Henning to test his hypothesis that creating an application using a more intuitive and a simpler design with an easily correlated and viewed data set will result in: 
 
 1. more feedback being collected due to allowing patient to complete on their phone/laptop/iPad
 2. more feedback being collected due to better completion rates resulting from simpler UX
