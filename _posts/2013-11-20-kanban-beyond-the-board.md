@@ -105,3 +105,6 @@ The example I often give when training people is that of the HR department track
 
 To get more detail and a better explanation of these concepts, you should also read David J Anderson’s [Kanban](http://www.amazon.co.uk/Kanban-David-J-Anderson-ebook/dp/B0057H2M70/) book!
 
+
+**This blog post previously contained the content from my post on [implementing Kanban](http://willhamill.com/2013/11/21/implementing-kanban) which has since been split out.**
+
