@@ -14,13 +14,17 @@ There are many beneficial aspects left beneath the surface of this approach whic
 Considering, understanding and using the values and practices behind the Kanban method can help you change and better the process you currently have - much like embracing the practices behind the Agile Manifesto rather than being beholden to any particular textbook implementation. In this post I want to talk a little about Kanban and its core concepts, and an example of how you can apply the approach to improve your way of working.
 
 
-##The History
+
+
+###The History
 
 Kanban (with a capital ‘K’) was formulated over the last 8~ years by [David J Anderson](http://twitter.com/lkuceo) and draws on principles from the [Theory of Constraints](http://en.wikipedia.org/wiki/Theory_of_constraints), [Toyota Production System](http://en.wikipedia.org/wiki/Toyota_production_system) and [Lean](http://en.wikipedia.org/wiki/Lean_software_development) in order to create a way of improving and evolving processes and systems without the friction and emotional inertia of a big-bang all-change transformation. 
 
 Kanban takes its name from the Japanese term *kanban* or signal cards (with a little ‘k’) used in the Toyota Production System to signal downstream that work is ready to be ‘pulled' from one state to the next. This ‘pull-based’ system, whereby workers begin work on a task only when finished their current one and are responsible for allocating themselves work when they have capacity (rather than upstream workers pushing the work onto the next person) is one of the cornerstones of Kanban, and is a component of empowering the team.
 
 Kanban has four main principles describing the intent of the method and six supporting practices which enable the evolutionary process change.
+
+
 
 
 ##4 Principles
@@ -39,6 +43,8 @@ This is the foundation of the Kanban approach - Kanban is a method of evolutiona
 All team members from management down to individual contributors should be enabled to identify waste, improvement, value to add and beneficial changes in the process. This is not intended to be a top-down change management method.
 
 
+
+
 ##6 Practices
 
 **Visualise workflow**  
@@ -48,7 +54,7 @@ Show work items and states in a visual process flow; on a virtual board or physi
 Focus on completion and reduce multi-tasking to improve efficiency and to reduce the time wasted context switching.
 
 **Measure and manage flow**  
-Using pull-based allocation, record the lead time and cycle time for items in the process. Focus changes on reduce cycle time and variation, and identify bottlenecks in the system by measuring both end to end and from state to state and using the visualised workflow.
+Using pull-based allocation, record the lead time and cycle time for items in the process. Focus changes on reducing cycle time and variation, and identify bottlenecks in the system by measuring both end to end and from state to state and using the visualised workflow.
 
 **Make policies explicit**  
 By realising that a process is a set of policies, the process can be changed by changing the policies for how work flows. Make policies explicit to empower workers to pull work through the states and to identify the effect of changes of policy on the system. The transparency created by identifying exactly how work progresses through the system is also empowering for team members.
@@ -60,27 +66,35 @@ A fundamental agile principle; use retrospectives, operations reviews and other 
 Use a model based method to identify and exploit opportunities for positive change, for example bottleneck identification and elimination in Theory of Constraints; using Systems Thinking to optimise the system rather than the parts; and/or Deming’s System of Profound Knowledge to reduce variation in flow.
 
 
-##A Systems Thinking Approach
+
+
+###A Systems Thinking Approach
 
 This sounds like a lot, but in reality it's more of a mindset shift towards changing the current process for the better and the things that are required to enable that. It's not like jumping into Scrum straight from a waterfall methodology, and it can be used to take a Scrum-based process which may have stagnated towards a process of ongoing improvement.
 
 [After reading The New Economics](http://willhamill.com/2013/11/06/the-new-economics) by [W. Edwards Deming](http://www.amazon.co.uk/dp/0262541165) I found myself coming back to some of the things I read in the Kanban book and noticing the focus on a higher level elimination of variability, a systems-thinking approach to process optimisation (over local optimisation) and the same empathetic approach to dealing with people. Anderson includes numerous experiential anecdotes illustrating these concepts such as how avoiding local optimisation (peak utilisation for all workers) by creating slack in the process seems to add inefficiency but at the bigger picture allows for time to be invested in things like training and addressing technical debt to enable continuous improvement and therefore the improvement of the process overall.
 
 
-##The Operations Review
+
+
+###The Operations Review
 
 The Operations Review is a feedback loop described like a kind of cross-project retrospective focusing on quantitative reporting on how the organisation is performing, rather than the low-level, higher detail qualitative result of a typical sprint retrospective. Attendees can reflect on the higher-level data provided about the processes presented and how they interact, so that they can suggest changes or improvements. 
 
 This involves open and objective feedback from managers across projects and in which many levels staff of can contribute - also tying in with the fourth principle to encourage leadership at all levels. This seems like it would be quite beneficial in organisations in which multiple teams are using an agile approach or interfacing with other teams on a programme of work which are using other approaches. I’m not doing it justice really, you should read up about it!
 
 
-##Other Goodies
+
+
+###Other Goodies
 
 In the Kanban book, Anderson talks about a few things that seem to be skimmed over in some texts on agile development methodologies, such as co-ordination between and across teams using a Kanban system. He talks in particular about using Kanban to create a lean and agile approach to software delivery with teams in maintenance mode and which deal with different service levels for bugs and urgent issues as well as ongoing development. There is some very interesting material on this and 'class of service’ for work items, which I haven’t really found a lot of good material about in other methodologies.
 
 There are also good guidelines for identifying waste and focusing on valuable work by reducing co-ordination costs (the overhead of communication, meetings, etc - things we have to do to keep in sync with each other) and transaction cost (the overheads of setup/teardown for deployment actions etc - things we have to do simply as a cost of business). Deming’s System of Profound Knowledge is also referenced and the important difference between common-cause and special-cause variation reiterated.
 
 One of the most interesting parts of these sections I found was the rule of thumb for identifying if an action is valuable or an overhead: ask yourself “if we could, would we do more of this?” A simple and effective way of helping discover if an action, ceremony or stage in the process is actually adding value. For a contentious example, the daily stand-up is a *necessary* overhead, as we want to effectively coordinate our team members, but if it takes 15 minutes, we wouldn't want to extend that to an hour because it doesn’t strictly contribute to the end goal.
+
+
 
 
 ##Implementing Kanban
@@ -104,7 +118,9 @@ Retrospective actions were stuck up beside the main story tracking wall in their
 Kanban makes a specific effort to remind you that the process itself should change based on the insights your team makes about it and encourages changes to be made, tested and measured for their effect which is something that can be forgotten when we slip into the ways of just following the textbook with methodologies. There’s no point in mastering a process and then never changing it when based on the knowledge we gain about our work and ourselves on a regular basis we can attempt to foster a process of ongoing improvement - the principles behind the Agile Manifesto remind us that “At regular intervals, the team reflect on how to become more effective, then tunes and adjusts its behaviour accordingly”.
 
 
-##Try Kanban
+
+
+###Try Kanban
 
 Consider the principles and practices I’ve described above and how you could apply them to your work. It doesn’t have to be a Scrum-influenced agile development process; after all Kanban is intended to be a method for evolving an existing process to become more agile, it’s not a new process you drop in instead of your current one. Making small, measurable changes is the easiest way to start.
 
