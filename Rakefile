@@ -69,6 +69,9 @@ task :post do
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
+
+  # open post in sublime text for editing
+  system('subl '+filename)
 end # task :post
 
 # Usage: rake page name="about.html"
