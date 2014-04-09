@@ -88,7 +88,7 @@ Graham touched on a number of crypto systems in his assessments, providing break
 
 [Java JCA/JCE](http://en.wikipedia.org/wiki/Java_Cryptography_Extension): Standard crypto interface used across many enterprise Java apps. Hardware support limited. API under Oracle control but providers often open (e.g. [Bouncycastle](https://www.bouncycastle.org)). Not very mistake resistant. Support for modern and a lot of legacy stuff, good interop.
 
-[OpenSSL](https://www.openssl.org): Originally just used for TLS and SSL, not used for lots of crypto. Source available but decision making process murky. Contains legacy crypto as well as modern extensions. Minimal key management. Easy to get wrong. Interop ok.
+[OpenSSL](https://www.openssl.org): Originally just used for TLS and SSL, now used for lots of crypto. Source available but decision making process murky. Contains legacy crypto as well as modern extensions. Minimal key management. Easy to get wrong. Interop ok.
 
 [MS CAPI/CNG](http://msdn.microsoft.com/en-us/library/windows/desktop/aa376210.aspx): CNG slowly replacing CAPI on MS platforms. Proprietary software and most providers closed. CAPI a lot of legacy code. No key management. Plenty of things to get wrong. Not very interoperable.
 
