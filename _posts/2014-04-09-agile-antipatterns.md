@@ -13,26 +13,26 @@ Each antipattern is listed with a brief description of the trouble that we've se
 
 <br />
 
-- [Non-technical stakeholders dictating technical feasibility or 'solutionising'](solutionising)
-- [Standups as simple status updates](zombie_standups)
-- [Phased sprints, e.g. 'design sprint' -> 'dev sprint' -> 'test sprint'](phased_standups)
-- [Poor quality user stories](inept_stories)
-- [Very long sprints with large stories](long_sprints)
-- [Developers not empowered to talk to business, give estimates, etc](developers_not_empowered)
-- [Estimates produced by a Product Owner, architect or other single person](single_person_estimate)
-- [Multipe Product Owners working on the same product](multiple_product_owners)
-- [Stagnant technical practices](no_xp)
-- [Not paying off technical debt](tech_debt)
-- [No retrospectives](no_retros)
-- [Turning people off with too many radical changes at once](change_burnout)
-- [Ultra-detailed user stories](excessive_detail)
-- [The Scrum Master is the boss](SM_PM)
-- [Acquiring an agile process and never changing it](fixed_process)
-- [Using an 'agile tool' to define the way of working](agile_tool)
-- [Product Owner == Scrum Master](SM_PO)
-- [Product backlog determined at outset and forever fixed](fixed_scope)
-- [Product Owner without authority ("proxy PO")](proxy_PO)
-- [Points mean prizes](velocity_target)
+- [Non-technical stakeholders dictating technical feasibility or 'solutionising'](#solutionising)
+- [Standups as simple status updates](#zombie_standups)
+- [Phased sprints, e.g. 'design sprint' -> 'dev sprint' -> 'test sprint'](#phased_standups)
+- [Poor quality user stories](#inept_stories)
+- [Very long sprints with large stories](#long_sprints)
+- [Developers not empowered to talk to business, give estimates, etc](#developers_not_empowered)
+- [Estimates produced by a Product Owner, architect or other single person](#single_person_estimate)
+- [Multipe Product Owners working on the same product](#multiple_product_owners)
+- [Stagnant technical practices](#no_xp)
+- [Not paying off technical debt](#tech_debt)
+- [No retrospectives](#no_retros)
+- [Turning people off with too many radical changes at once](#change_burnout)
+- [Ultra-detailed user stories](#excessive_detail)
+- [The Scrum Master is the boss](#SM_PM)
+- [Acquiring an agile process and never changing it](#fixed_process)
+- [Using an 'agile tool' to define the way of working](#agile_tool)
+- [Product Owner == Scrum Master](#SM_PO)
+- [Product backlog determined at outset and forever fixed](#fixed_scope)
+- [Product Owner without authority ("proxy PO")](#proxy_PO)
+- [Points mean prizes](#velocity_target)
 
 <br />
 
@@ -95,7 +95,7 @@ Ideally, have one Product Owner. Some role occupied by one person who can make t
 <br />
 
 ####<a id="no_xp"> </a>Stagnant technical practices
-You may find that this occurs when an edict has come down from On High to "go agile", and the project or team has responded simply be doing standup meetings and calling their release schedule 'sprints'. [Modern](http://xprogramming.com/what-is-extreme-programming/#simple), [high](http://xprogramming.com/what-is-extreme-programming/#pair) [quality](http://xprogramming.com/what-is-extreme-programming/#test) [software](http://xprogramming.com/what-is-extreme-programming/#continuous) [development](http://xprogramming.com/what-is-extreme-programming/#design) [practices](http://xprogramming.com/what-is-extreme-programming/#coding) are the means by which agility is fostered and grown at the development team level. If you do not have developers writing tests, for example, you will find it very hard to take advantage of the faster delivery rates other teams enjoy.
+You may find that this occurs when an edict has come down from On High to "go agile", and the project or team has responded simply by doing standup meetings and calling their release schedule 'sprints'. [Modern](http://xprogramming.com/what-is-extreme-programming/#simple), [high](http://xprogramming.com/what-is-extreme-programming/#pair) [quality](http://xprogramming.com/what-is-extreme-programming/#test) [software](http://xprogramming.com/what-is-extreme-programming/#continuous) [development](http://xprogramming.com/what-is-extreme-programming/#design) [practices](http://xprogramming.com/what-is-extreme-programming/#coding) are the means by which agility is fostered and grown at the development team level. If you do not have developers writing tests, for example, you will find it very hard to take advantage of the faster delivery rates other teams enjoy.
 
 You don't even need to work in an agile fashion to use most of the practices linked in the previous paragraph. They are now simply considered good practice for developers. You don't need to use TDD on every single feature to gain the benefits of having developers write unit tests. Ensure the development team are trained in these practices and create opportunities for both formal and informal if they are not. Better technical practices will mean a reduction in turnaround time for feature development and a reduction in defects.
 
@@ -123,9 +123,9 @@ Awareness of new techniques, training for those involved, clear corporate commun
 <br />
 
 ####<a id="excessive_detail"> </a>Ultra-detailed user stories
-The 300 word user story covering all possible scenarios and all details, so that developers don't need to ever seek clarification on any issue. This often seems to be attempting to solve the symptom of a problem - sometimes that stories are too vague for developers to estimate accurately, or when there has been disagreement over the acceptance criteria of previous stories.
+The 300 word user story covering all possible scenarios and all details, so that developers don't need to ever seek clarification on any issue. This often seems to be attempting to solve the symptom of a problem - sometimes that stories are too vague for developers to estimate accurately, or when there has been disagreement over the acceptance criteria of previous stories. This can also be a symptom of reluctance to iterate; that the story writer has to get it exactly right the first time as this is their only chance to define the feature.
 
-Remember, [a user story is a promise of a conversation](https://www.gov.uk/service-manual/agile/writing-user-stories.html) and shouldn't be used to obviate the need for one. The user story should be discussed before planning by a business stakeholder, a subject matter expert and a development team member and an appropriate level of detail recorded based on their agreed understanding of the user need. The story can contain acceptance criteria which should ideally then for acceptance tests, but excessive detail may preclude the ability for developers to make changes based on ongoing development (especially if changes are not allowed once the story is 'signed off' as ready).
+Remember, [a user story is a promise of a conversation](https://www.gov.uk/service-manual/agile/writing-user-stories.html) and shouldn't be used to obviate the need for one. The user story should be discussed before planning by a business stakeholder, a subject matter expert and a development team member and an appropriate level of detail recorded based on their agreed understanding of the user need. The story can contain acceptance criteria which should ideally then for acceptance tests, but excessive detail may preclude the ability for developers to make changes based on ongoing development (especially if changes are not allowed once the story is 'signed off' as ready). Embrace iteration and expect that even with great detail and certainty, you are unconsciously making all kinds of assumptions about user behaviour and user needs. Iterating on the features based on real feedback is the best way to meet needs, so encourage writing stories with just enough detail to create a [Minimum Viable Product](http://theleanstartup.com/principles) to test the assumptions and attempt to deliver value so that it can be put in front of real users.
 
 
 <br />
