@@ -7,7 +7,6 @@ tags: ["git", "source control"]
 ---
 {% include JB/setup %}
 
-# Git Rebase
 
 Having recently written this post up as a wiki page for a project in work, I figured it'd be nice to share it with the wide world for anyone working on a shared codebase with occasionally messy git history.
 
