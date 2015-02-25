@@ -21,7 +21,7 @@ So, a year on from my previous post my 2014 Reading List I thought it would be g
 10. [Lean from the Trenches](http://www.amazon.co.uk/Lean-Trenches-Managing-Large-Scale-Projects/dp/1934356859/) >> not done: I haven't bought this yet.
 11. [Remote](http://www.amazon.co.uk/Remote-Office-Required-Jason-Fried/dp/0091954673/) >> not done: I haven't bought this yet.
 
-In hindsight I think I have bitten off more than I can chew, and I've got a bit of a problem with too much work-in-progress and not enough finishing. I've interrupted books that I've been reading when I find others that spark my interest and distract me, which then increases my WIP again.
+In hindsight I think I have bitten off more than I can chew, and I've got a bit of a problem with too much work-in-progress and not enough finishing. I've interrupted books that I've been reading when I find others that spark my interest and distract me, which then increases my WIP again. During the year, I started and finished [Slack](http://www.amazon.co.uk/Slack-Getting-Burnout-Busywork-Efficiency-ebook/dp/B004SOVC2Y/) (if you liked Peopleware, you'll like this) and also the now buzzfeed-esque [97 Things Every Programmer Should Know](http://www.amazon.co.uk/Things-Every-Programmer-Should-Know-ebook/dp/B0039OVIAK/) (easily consumed ProTips for conscientious devs).
 
 I've also started reading [Lean Enterprise](http://www.amazon.co.uk/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425/) despite being aware of my WIP problem because I had been waiting on it coming out for almost a year now, and I was very excited by the contents and relevance.
 
