@@ -17,7 +17,7 @@ Thursday was opened by the Google keynote on managing their own server container
 - [Responding rapidly when you have 100GB+ data sets in Java](#big_java)
 - [Protocols: the glue for applications](#protocols)
 
-
+<br />
 
 ####<a id="google_cluster"> </a>Keynote: Cluster management at Google
 *by [John Wilkes](http://research.google.com/pubs/JohnWilkes.html)*
@@ -46,7 +46,7 @@ John ended the keynote by summarising with a call for incremental improvement, s
 2. It's okay to use other people's stuff, don't do it all yourself
 3. Do more monitoring
 
-
+<br />
 
 ####<a id="securing_paas"> </a>Securing PaaS with Docker and Weave
 *by [David Pollack](https://twitter.com/dpp)*
@@ -61,7 +61,7 @@ David addresses these issues in his platform with each tenant application deploy
 
 David said that he was happy with Docker's security as LxC containers are a reasonably well understood technology and the new popularity it meant that there are many eyes looking at it both to exploit and improve it. Finishing his talk, David said that he thinks the move from VMs to containers is as big a shift in approach and utility as the shift from physical machines to VMs; that IP tables still work just fine for network level application isolation; and that a layered approach to isolating risks is still the best approach.
 
-
+<br />
 
 ####<a id="docker_go"> </a>Infrastructure and Go
 *by [Jessie Frazelle](https://twitter.com/frazelledazzell)*
@@ -74,7 +74,7 @@ Jessie also described a distributed message platform in Go called [NSQ](http://n
 
 The Go language was chosen by the Docker team for a number of reasons: it's simple, has common useful tools such as `fmt`, `vet`, `lint`, and others for documentation and tests. Some of the issues they found when using Go were in package versioning across the teams and inconsistency in approaches to this. The Go test framework is also still basic and not as fully-featured as those in other languages (like JUnit for example) and so lacks some useful aspects such as setup and teardown step definitions. The Go community is also smaller than that of other languages and as a result is still helpful, friendly and comparatively drama-free (long may it continue for them!).
 
-
+<br />
 
 ####<a id="docker_vs_paas"> </a>Docker vs PaaS
 *by [Colin Humphreys](https://twitter.com/hatofmonkeys) and [Paula Kennedy](https://twitter.com/PaulaLKennedy)*
@@ -95,7 +95,7 @@ I think it's hard to divide a talk into covering two things and still reach the 
 
 Overall I was convinced that the argument comes down again to whether you want to give up control of low level concerns in order to benefit from paying for more hands-off deployments and scalability, and if you can live with the lock-in that PaaS tends to imply. [It depends](http://willhamill.com/2015/03/02/it-depends-is-the-shortest-correct-answer/) - on your particular environment constraints :).
 
-
+<br />
 
 ####<a id="docker_clustering"> </a>Docker clustering: batteries included, but removable
 *by [Jessie Frazelle](https://twitter.com/frazelledazzell)*
@@ -116,7 +116,7 @@ After describing some more advanced features such as setting container affinity 
 
 Wrapping up, Jessie outlined the future direction of Swarm; rescheduling policies, further backend drivers for OOTB management functionality, support for Mesos, cluster leader elections and more & faster integration with new Docker features.
 
-
+<br />
 
 ####<a id="big_java"> </a>Responding rapidly when you have 100GB+ data sets in Java
 *by [Peter Lawrey](https://twitter.com/peterlawrey)*
@@ -135,7 +135,7 @@ When addressing bigger data sets of up to 1TB in Java, the [NUMA](http://en.wiki
 
 A question I asked of Peter was at what point you want to make a call on the investment in understanding and managing this massive vertical memory size and consider the tradeoff against distributing the set amongst machines or application instances a better option. Peter answered this by pointing out that for certain problems like trading or other financial systems where large data sets are needed with very low latency, the time delay introduced by the network hop is actually less of a problem than the bandwidth constraint of going to I/O and over the network connection, compared to the bandwidth available in the memory controller.
 
-
+<br />
 
 ####<a id="protocols"> </a>Protocols: the glue for applications
 *by [Torben Hoffman](https://twitter.com/lehoff)*

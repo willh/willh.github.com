@@ -17,7 +17,7 @@ Another year, another QCon. I'm glad this is becoming a bit of a tradition for m
 - [Cake drive development](#culture_moo)
 - [Software tales from the continent](#africa)
 
-
+<br />
 
 ####<a id="microservices"> </a>Microservies and Evolutionary Architecture
 *by [Rebecca Parsons](https://twitter.com/rebeccaparsons)*
@@ -40,7 +40,7 @@ Evolutionary architecture is derived from evolvability of the system as a first 
 
 Microservices is clearly a hot topic right now, but requires discipline, insight into the problem domain and above all is no silver bullet.
 
-
+<br />
 
 ####<a id="scala_enterprise"> </a>Scala in the Enterprise
 *by [Peter Pilgrim](https://twitter.com/peter_pilgrim)*
@@ -55,7 +55,7 @@ Scala was then demonstrated for the same types of behaviours as the Java 8 examp
 
 Peter finished his talk by stating that while Java 8 is new, Scala is here already and can be used as a full-fat functional language as well as object-oriented. Java 8 however changes things by making functional paradigms accessible to a much wider and arguably slower-changing audience.
 
-
+<br />
 
 ####<a id="crime_scene"> </a>Treak you code like a crime scene
 *by [Adam Tornhill](https://twitter.com/adamtornhill)*
@@ -80,7 +80,7 @@ Adam's stats demonstrated (as we all know and routinely ignore) that quality was
 
 In the future, Adam wants to see more advanced behavioural analysis of the code using these kinds of tools, to give dynamic analysis such as "5 people changed this class this week" and possibly even recommendations "people who changed this class also changed XYZ" - these would be useful to give people an idea as to what impact their changes may likely have or which areas they need to know about.
 
-
+<br />
 
 ####<a id="architect_world_view"> </a>An Architect's world view
 *by [Colin Garlick](http://www.softed.com/Staff/ColinG.aspx)*
@@ -116,7 +116,7 @@ Instead of prescribing individual practices to underpin these principles, Colin 
 - Perfectionism. Delaying implementation because architecture not ready yet. Instead, assume evolution.
 - Over complexity without communication. Tester/BA on the project can't draw the high level design. Good test for communicating understanding.
 
-
+<br />
 
 ####<a id="adjusting_architecture"> </a>Adjusting your architecture
 *by [Rachel Laycock](https://twitter.com/rachellaycock)*
@@ -137,7 +137,7 @@ Rachel described that what this tends to mean is that Alastair Cockburn's [hexag
 
 Rachel finished off her talk with calling for an appreciation of evolvability in system architectures. You don't need to design for Google scale now, but you should design for the ability to be changed. Architecture of the system is the things about it that are hard to change. The parts these are usually correspond to -ilities and bigger decisions made that can't be unmade cheaply or quickly; to identify where these decisions are you need to be talking to the customer about their scale, security, business needs, and future direction. Creating an architecture where components can evolve separately, with less constraint to change, is more important than trying to predict an unknown future. Areas which need to change most often are likely to hide the most complexity. Putting more emphasis on the testability of these areas and treating the testability as a top level requirement of the architecture will result in a higher quality system.
 
-
+<br />
 
 ####<a id="culture_moo"> </a>Cake driven development - culture at Moo
 *by [Mike Pearce](https://twitter.com/mikepearce)*
@@ -156,7 +156,7 @@ After the reorganisations, the smaller cross functional crews had better decisio
 
 In day to day work terms, Mike described the culture in Moo as being focused on teams aligning their releases with a fortnightly release train. This currently causes some problems with co-ordination and ties up testers in regression testing the releases, so I'd be interested in hearing what way Moo tackle these issues as they grow. 'Bug squashing Tuesday' is set aside for people to tackle defects and improve complex or low quality areas, and people in the crews typically use XP practices such as pair programming, regular retrospectives and collective ownership. Moo have an interesting buddy system for onboarding new people allowing new starts to find their way around and arrange getting set up. Wrapping up, Mike stated that overall they aim to create a culture which empowers people to be proactive to solve problems.
 
-
+<br />
 
 ####<a id="africa"> </a>Software tales from the continent
 *by [Betty Enyonam Kumahor](https://twitter.com/enyok)*
