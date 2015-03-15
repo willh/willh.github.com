@@ -70,40 +70,40 @@ Dan North's material is great stuff and he speaks a lot of sense. One of his pre
 I took less notes during this session, having already taken some down from the workshop, so I've just made a few bullets under the points that Dan described in his talk:
 
 1. Learn the domain (use BA to educate devs not as permanent conduit)
-  <ul><li>Devs sent on same domain course as real business people!</li></ul>
+    <ul><li>Devs sent on same domain course as real business people!</li></ul>
 2. Prioritise risky over valuable
-  <ul><li>Opportunity cost -  when doing X be aware of every other Y you could be doing and if Y is more valuable, change</li>
-  <li>Within MVP, order doesn't really matter so do risky first</li></ul>
+    <ul><li>Opportunity cost -  when doing X be aware of every other Y you could be doing and if Y is more valuable, change</li>
+    <li>Within MVP, order doesn't really matter so do risky first</li></ul>
 3. Plan as far as you need
-  <ul><li>Review your planning horizon</li></ul>
+    <ul><li>Review your planning horizon</li></ul>
 4. Try something different
-  <ul><li>Assume there is something you haven't tried that could benefit you</li>
-  <li>Different languages to get different perspectives, likewise programming styles</li></ul>
+    <ul><li>Assume there is something you haven't tried that could benefit you</li>
+    <li>Different languages to get different perspectives, likewise programming styles</li></ul>
 5. Fire, aim, ready
-  <ul><li>Get something in front of actual users for actual feedback</li>
-  <li>Showcase frequently</li></ul>
+    <ul><li>Get something in front of actual users for actual feedback</li>
+    <li>Showcase frequently</li></ul>
 6. Build small, separate pieces
-  <ul><li>DRY is the enemy of decoupled (counterintuitive perhaps but be aware)</li></ul>
+    <ul><li>DRY is the enemy of decoupled (counterintuitive perhaps but be aware)</li></ul>
 7. Deploy small separate pieces
-  <ul><li>Make component deployment quick</li>
-  <li>Make product deployment consistent</li>
-  <li>Make components self describing and environments unsurprising</li></ul>
+    <ul><li>Make component deployment quick</li>
+    <li>Make product deployment consistent</li>
+    <li>Make components self describing and environments unsurprising</li></ul>
 8. Prefer simple over easy
-  <ul><li>Don't always just bring in big, complex things just because it's a one line dependency</li>
-  <li><a href="https://github.com/mfoemmel/fig">A cool little dependency/package management tool called Fig</a></li></ul>
+    <ul><li>Don't always just bring in big, complex things just because it's a one line dependency</li>
+    <li><a href="https://github.com/mfoemmel/fig">A cool little dependency/package management tool called Fig</a></li></ul>
 9. Make the trade-offs
-  <ul><li>build v buy v oss</li>
-  <li>Framework v roll your own (e.g logging via System.out.println)</li></ul>
+    <ul><li>build v buy v oss</li>
+    <li>Framework v roll your own (e.g logging via System.out.println)</li></ul>
 10. Share the love
-  <ul><li>Code Reviews - keep quality up, spread knowledge</li>
-  <li>Learning lunches</li>
-  <li>Great On-boarding</li></ul>
+    <ul><li>Code Reviews - keep quality up, spread knowledge</li>
+    <li>Learning lunches</li>
+    <li>Great On-boarding</li></ul>
 11. Be okay with failure
-  <ul><li>Be broad-minded, see bigger picture of business significance of actions</li>
-  <li>Think about the product rather than the project</li>
-  <li>Progress via experiments</li></ul>
+    <ul><li>Be broad-minded, see bigger picture of business significance of actions</li>
+    <li>Think about the product rather than the project</li>
+    <li>Progress via experiments</li></ul>
 12. There are always 12 steps
-  <ul><li>Delivering in this fashion can be addictive!</li></ul>
+    <ul><li>Delivering in this fashion can be addictive!</li></ul>
 
 This talk was great and again I think calls back to an underlying theme for this track of the conference which was about embracing the sense in the agile principles and not just applying process at the expense of people. Some of these things can seem counterintuitive but it's usually when you zoom out and take in a wider context that you realise the greater sense in them. 
 
