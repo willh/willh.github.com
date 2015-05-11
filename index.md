@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Will's Blog
-tagline: Unhandled NoWittyTaglineException
+tagline: 
 ---
 {% include JB/setup %}
 

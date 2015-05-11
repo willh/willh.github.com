@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Will's Blog
-tagline: Unhandled NoWittyTaglineException
+tagline:
 author :
   name : Will Hamill
   email : will@willhamill.com
