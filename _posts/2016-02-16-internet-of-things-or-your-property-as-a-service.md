@@ -7,14 +7,14 @@ tags: ["internet of things", "security", "privacy"]
 ---
 {% include JB/setup %}
 
-###The Internet of Things
+### The Internet of Things
 
 For the last few years there has been a surge of 'Internet of Things' devices making their way into the mainstream. Aside from the tech industry's enthusiasm for attaching all kinds of sensors to the internet and beyond gimmicks like the fridge that orders milk for you when you've run out - wearable fitness trackers, beacons for tracking shipping, sensors for goal-line technology in sports, wifi-connected scales that integrate with recipe apps and the like are making their way into the new normal of our lives.
 
 What this means for consumers is the 'service-isation' of everyday things - your property as a service. The impact of turning simple devices or appliances from a product into a service has is multi faceted. IoT devices can make a lot of things much more convenient, more intelligent when it comes to tailoring the service, embraces helpful customisation, can reduce costs and brings us data we never before had to improve decision making from business to consumer life. However, it introduces a dependency on whoever runs the service, and grants them a great deal of power and control, and adds cost, risk and uncertainty to usage. It's important to consider both the new shiny convenience and also the hidden costs or pitfalls:
 
 
-###Depending on others for service
+### Depending on others for service
 
 There aren’t many things that’ll take a regular dumb fridge offline other than the electricity supply being out. However, with internet-controlled devices taking the place of regular appliances across the home, you now depend on both an internet connection _and_ the manufacturer’s service for your use. Though I found a friend’s Nest thermostat impressive and intriguing, the news that the [Nest service being offline means no heat for Nest users](http://www.bbc.co.uk/news/technology-35311447) doesn’t fill me with excitement.
 
@@ -23,7 +23,7 @@ I recall an amusing conversation with a colleague over Skype who explained he wa
 Adding connectivity, app integration, social/gamifying/whatever to dumb electronics means making even stuff that can be mechanically simple fundamentally much more complex. Crucially, given the dependence on the service operator, you are not buying a smart fridge/watch/coffee machine/bathroom scale - you are subscribing to it, even if for free.
 
 
-###Lifetime of equipment
+### Lifetime of equipment
 
 One big drawback of running your property as a service is that of planned obsolescence by manufacturers, who no longer want to shoulder the support or operational burden of the services - or who more cynically may want to force consumers to upgrade and replace more often. The lifetime of household appliances and personal electronics is significantly reduced when you tie it to security and firmware updates from the manufacturer, and an operating back end service. Contrast that with the fact that smartphones tend only to get updates for two to three years (depending on your telco's efforts), whereas a fridge or a watch can last for five to ten years without issue.
 
@@ -32,7 +32,7 @@ Another important fact to be aware of is that the terms you agree to now are not
 Even without accounting for changes of business strategy, acquisitions or collapse of the operating service, some products are sold with a use-by date already on the box: for example this [VR headset in which the manufacturer reserves right to terminate the app in 18 months](http://www.apple.com/shop/product/HJKB2LL/A/view-master-virtual-reality-starter-pack).
 
 
-###Security
+### Security
 
 Making this criticism is a bit like shooting fish in a barrel given the last year's worth of security breaches and exploits. Starting with the small fry, there are the WiFi connected lights which will receive commands [without HTTPS or decent security](http://easybulb.com/api/). One of the biggest stories in this area recently has been the [VTech kids toys leaking data](http://www.bbc.co.uk/news/technology-35532644) for comms/pics between kids and parents.
 
@@ -43,7 +43,7 @@ As systems are exposed via wireless networking, even if just on local networks, 
 For example, US vendor [Target was hacked for credit card details by a heating and ventilation monitoring system](http://krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company/) which was connected to their main network. Security researchers discover exploit on 'Smart' sniper rifle enabling them to [prevent firing or change target](http://www.wired.com/2015/07/hackers-can-disable-sniper-rifleor-change-target/) - not something Police hostage negotiators want to discover at the wrong moment. One Wired journalist reported on security researchers [taking control of his Jeep as he was driving down the highway](http://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/) and the ever-popular [Nest thermostat and camera has also been targeted for exploits](https://www.blackhat.com/docs/us-14/materials/us-14-Jin-Smart-Nest-Thermostat-A-Smart-Spy-In-Your-Home-WP.pdf).
 
 
-###Ownership of data
+### Ownership of data
 
 Using the internet today in any normal sense means that your usage is [extensively collected](http://www.economist.com/news/special-report/21615871-everything-people-do-online-avidly-followed-advertisers-and-third-party), [fingerprinted](http://www.telegraph.co.uk/technology/internet-security/10982252/The-new-technology-which-advertisers-use-to-track-your-every-movement-online-canvas-fingerprinting.html), [tracked](http://venturebeat.com/2013/03/04/online-tracking/) and [sold to advertisers](https://marco.org/2015/08/11/ad-blocking-ethics). Thanks to the Internet of Things, information that companies previously would never have access to, like sleep patterns, body weight, food consumption, heart rate, [sexual activity](http://thenextweb.com/insider/2011/07/03/fitbit-users-are-inadvertently-sharing-details-of-their-sex-lives-with-the-world/), TV viewing habits and more are all now captured and indexed. Information that sometimes even your partner would not even know in this detail is being collected and [aggregated at unprecedented rates using innovating and devious new ways](http://motherboard.vice.com/read/the-internet-of-things-that-talk-about-you-behind-your-back).
 
@@ -56,14 +56,14 @@ There's also a risk of abuse of the data when [employers](http://edition.cnn.com
 Back when it was just advertisers profiling your web browsing habits it was portrayed as enabling 'targeted advertising' (as if anyone actually wants ads and the issue is the irrelevant ones). Now that simple playback devices are smarter, the targeted advertisements can [infect previously ad-free areas of your life](https://twitter.com/PaulM/status/689272494331531269) like watching a movie on Netflix (ironically a service people pay for partly because it has the content they want on demand without ads). Expect to see the same thing to happen with the IoT: slim benefits touted to users, such as fractionally reduced health insurance premiums, in exchange for an incredible amount of data on your personal and private life that can be used to better improve the provider's margins and find more avenues to wring a few pence out of you. 
 
 
-###Standards
+### Standards
 
 It's a jungle out there at the moment for IoT despite the term's growing age, as no major players have yet emerged to dominate the market and gobble up the smaller players. Someone with a Fitbit, Pebble, Drop kitchen scale and app-enabled treadmill won't yet find themselves with a cliché-peddling Minority Report style home and life dashboard showing how if I make these cookies I'll end up needing to do another 15 minutes on the treadmill at my usual rate, but will more likely find themselves staring at four separate apps that don't talk to each other. (For now, thankfully, I think, given the security and data ownership issues I mentioned before...)
 
 Samsung have produced what appears to be a [well-meaning IoT hub thing](http://www.theguardian.com/technology/2016/feb/08/samsung-smartthings-hub-review-internet-of-things) which tries to solve some issue of interoperability, but many of us working in tech know what happens when you [try and solve the standards issue by yourself](https://xkcd.com/927/). In many cases, though, hardware manufacturers want you to use their smart devices but they want you to have to use their app as well because then they can create an ecosystem into which they can lock consumers (c.f. Apple). In many cases it's hard to get data out and do new things with it that the manufacturer hasn't thought of yet or just take control of your data and export it if you want to change from one wireless bathroom scale provider to another.
 
 
-###Where do we go from here?
+### Where do we go from here?
 
 It's easy as consumers and professionals to be dazzled by the latest tech coming out of [CES](http://www.forbes.com/sites/scottdavis/2016/01/19/iot-moves-from-smart-to-wicked-intelligent-at-ces/) or the latest trends in the [Gartner report](http://www.gartner.com/newsroom/id/3165317). As Smart-$product becomes the new default $product, be aware of the new features your latest TV or scales or coffee machine have and consciously make the decision about each internet-enabled device you add to your home or business network.
 
