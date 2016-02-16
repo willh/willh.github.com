@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-I'm a Technical Architect at [Kainos](http://www.kainos.com) working primarily in systems integration and custom development [(we're hiring)](http://www.kainos.com/careers).
+I'm a Solution Architect at [Kainos](http://www.kainos.com) working primarily in systems integration and custom development [(we're hiring)](http://www.kainos.com/careers).
 
 Currently I am based in our Belfast office in Northern Ireland, helping to create better digital services for government and citizens.
 
