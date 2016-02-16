@@ -11,7 +11,7 @@ Today I attended a workshop at QCon London led by the erudite [James Lewis](http
 
 I find myself grinning wrly when I hear someone else respond with "It depends... well, really, it does!" in answer to a question because I find myself doing the same thing at times. Sometimes when people ask what appears to be a simple question you need a way to indicate that the answer is actually more complex and situational, and it certainly beats pushing your glasses back up and saying "Actually, I think you'll find it's a bit more complicated than that" (unless you do actually intend to dismiss the person asking the question!)
 
-#### Listen up
+####  Listen up
 
 If someone answers you with "it depends", this is your cue to listen up because the full answer might not fit into a tweet or a two-second response, and perhaps trying to oversimplify it at this moment would leave you missing some important information. 
 

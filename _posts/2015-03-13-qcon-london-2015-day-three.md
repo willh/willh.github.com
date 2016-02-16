@@ -19,7 +19,7 @@ The final day of QCon was back into the world of microservices, hearing from a n
 
 <br />
 
-####<a id="netflix_monitoring"> </a>Keynote: How Netflix built a monitoring platform and why you probably shouldn't
+#### <a id="netflix_monitoring"> </a>Keynote: How Netflix built a monitoring platform and why you probably shouldn't
 *by [Roy Rapoport](https://twitter.com/royrapoport)*
 
 Roy Rapoport is an Engineering Manager in Netflix's 'Insight Engineering' department, and in his keynote described how the 'Not Invented Here' problem was dealt with in Netflix when it came to creating the monitoring systems in Netflix's architecture.
@@ -46,7 +46,7 @@ Wrapping up, Roy said that when addressing NIH issues, dig in and find out which
 
 <br />
 
-####<a id="fits_in_your_head"> </a>Microservices: software that fits in your head
+#### <a id="fits_in_your_head"> </a>Microservices: software that fits in your head
 *by [Dan North](https://twitter.com/tastapod)*
 
 Dan North took to the stage for the first talk on the 'Taming Microservices' track. Dan started by seeking to identify a shared context with the audience - advocating that the purpose of creating software is not for the software's sake; reminding the audience that they are employed not to write code but to create a positive impact for the business. The goal, Dan says, is to sustainably minimise lead time to business impact and that is the larger scope at which our improvements should be aimed.
@@ -65,7 +65,7 @@ Having largely happened to not use the term throughout the talk, Dan finished up
 
 <br />
 
-####<a id="microservices_are_too_big"> </a>Microservices are too (conceptually) big
+#### <a id="microservices_are_too_big"> </a>Microservices are too (conceptually) big
 *by [Phil Wills](https://twitter.com/philwills)*
 
 Phil Wills, Senior Technical Architect at The Guardian was up next to talk about microservices based on his work at The Guardian. The Guardian has been doing this kind of work for quite some time and there seems to have been a lot of cross-pollination between them, GDS and Thoughtworks in the last few years so interesting to see how these ideas have been proliferating in the background. The Guardian website apps and site rely upon a Content API for the article data, and various other APIs for comments and so on, composed in a front end for different platforms. The Guardian has a strong focus on developing in-house tools to meet their needs for continuous delivery.
@@ -85,7 +85,7 @@ Phil warned of being wary about shared libraries, as shared libraries reintroduc
 
 <br />
 
-####<a id="protocols"> </a>Protocols of interaction: current best practice
+#### <a id="protocols"> </a>Protocols of interaction: current best practice
 *by [Todd L. Montgomery](https://twitter.com/toddlmontgomery)*
 
 Todd L. Montgomery's talk was on the importance of protocols for addressing the reliability and safety of communications between and within systems, and how we can use those lessons to design the interactions between microservices. Given the nature of a microservices architecture tends to result in distributed systems, Todd advocated for understanding of these scenarios to understand how the services should handle requesting things from each other.
@@ -106,7 +106,7 @@ Todd concluded by summarising that existing protocols such as TCP, [Aeron](http:
 
 <br />
 
-####<a id="soundcloud_microservices"> </a>No free lunch, indeed: Three years of microservices at Soundcloud
+#### <a id="soundcloud_microservices"> </a>No free lunch, indeed: Three years of microservices at Soundcloud
 *by [Phil Calçado](https://twitter.com/pcalcado)*
 
 Phil began his talk on exploring, adopting and using microservices at [Soundcloud](https://soundcloud.com), a music uploading and sharing site, with a quick summary of scale: 11 hours of audio are uploaded every minute. Given the needs for processing and storing this quantity of data (that's about 660 days of sound every day) and serving it to ~11 million users each day, it seems Soundcloud have a lot riding on their platform.
@@ -130,7 +130,7 @@ Phil admitted he realised he was nervous having read Martin Fowler's microservic
 
 <br />
 
-####<a id="modern_microservices"> </a>Building a modern microservice architecture
+#### <a id="modern_microservices"> </a>Building a modern microservice architecture
 *by [Yoni Goldberg](https://twitter.com/yoni_goldberg)*
 
 Yoni works with [Gilt](http://www.gilt.com), a site specialising in flash sales for designer brand goods. Yoni's talk was on how Gilt had moved over the years from a monolith to a microservice architecture to try and deal with the pain of handling their common demand spikes and fixing and improving parts of the system.
@@ -151,7 +151,7 @@ Yoni also described the concept of 'mid tier microservices' which exist to aggre
 
 <br />
 
-####<a id="operating_microservices"> </a>Operating microservices
+#### <a id="operating_microservices"> </a>Operating microservices
 *by [Michael Brunton-Spall](https://twitter.com/bruntonspall)*
 
 Michael Brunton-Spall, a Technical Architect at [GDS](https://www.gov.uk/government/organisations/government-digital-service) had the final talk of the conference, on the impact of running microservices in production and the implications that has further upstream. Unfortunately I had to skip this talk in order to make my flight, but I managed to watch it online on the InfoQ website thankfully.

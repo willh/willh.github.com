@@ -8,7 +8,7 @@ tags: ["presentations", "agile", "testing", "culture"]
 
 {% include JB/setup %}
 
-###Keynote - Instantly Better Presentations
+### Keynote - Instantly Better Presentations
 *by Damian Conway*
 
 Damian Conway gave a great keynote presentation on the second day of QCon about how to improve style, delivery and content. I was very interested in this session because it always greatly bothers me when I attend a presentation on something and find that the presenter reads just a huge block of text off his slides, or has text too small to read from the back of the room, or any number of other obvious but often made mistakes. Technical presenters are often guilty of this because they don't get the same kind of training that the slick sales types get, though I've seen salespeople give lacklustre presentations too!
@@ -21,7 +21,7 @@ Damian made a [more detailed prose version of his content](http://damian.conway.
 
 ____
 
-###People Over Process - Applying It In Real World Software Development
+### People Over Process - Applying It In Real World Software Development
 *by Glen Ford*
 
 Glen Ford's talk was about applying the principle of *individuals and interactions over processes and tools* in real terms, and how the impact of considering the human factors involved in development can make a real difference in team performance. Glen began by recounting from his experience as a team lead of a time when he was given feedback illustrating that his impression of how he led the team was different from how the team were experiencing it and that he wished he had been given the feedback sooner. Glen encouraged us to constantly seek feedback rather than waiting for it, and actually apply it to ourselves.
@@ -32,7 +32,7 @@ The processes used to guide the team are a set of concepts and not the law; the 
 
 ____
 
-###Climbing Out Of A Crisis Loop @ The BBC
+### Climbing Out Of A Crisis Loop @ The BBC
 *by Katherine Kirk*
 
 Katherine began her talk by describing the situation of one of the teams in the BBC working on a high-demand backend media service. When she was brought in after previous managers had quit, she knew that there was a massive percentage of time spent firefighting and a huge gulf between the expectations the team were setting and their ability to deliver, given the quality of the system, the time spent on urgent fixes and communication issues.
@@ -47,7 +47,7 @@ Katherine's main push was to improve the communication and to try to empower the
 
 ____
 
-###Between Fluffy Bunnies and Command & Control: Agile Adoption in Practice
+### Between Fluffy Bunnies and Command & Control: Agile Adoption in Practice
 *by Benjamin Mitchell*
 
 Ben's talk on how implementing agile worked out for him in practice was less of a narrative and more of a series of anecdotes interleaved with lessons learned/points for thought. Ben started by describing an agile team he had led in an organisation that had previously had bad experience with agile, so when running his team they were actually having their standups in secret. I can understand why this was done, in order to ensure the team can actually be productive without a top-down command being used to force them into ineffective practices, but as Ben said, you can't be open and transparent when you're hiding in the stairwell to have a meeting.
@@ -60,7 +60,7 @@ When it came to making decisions about the process and the project, Ben said tha
 
 ____
 
-###Accelerating Agile
+### Accelerating Agile
 *by Dan North*
 
 I was lucky enough to attend the pre-conference workshop on this topic with Dan North, which I highly recommend. Dan describes how he went from working in a high performing team and delivering every week to working with a couple of developers in a trading company, where no strict 'agile' process was followed to the letter, code wasn't always TDD'd and despite various other popular rules bring broken they were delivering at an incredible rate (many times per week). Dan's experiences in working with this team led him to describe a number of patterns for effective delivery.
@@ -111,7 +111,7 @@ For example thinking about the product rather than the project - instead of havi
 
 ____
 
-###Yanking Business Into Testing
+### Yanking Business Into Testing
 *by Gojko Adzic and Lukas Oberhuber*
 
 I was quite eager to see this talk, which combined Lukas' experience of a project that needed help with Gojko's advice on agile testing/impact mapping, as it seemed like a good combination of speakers for one session. (Not entirely unrelated: have a read of Gojko's book on [Specification by Example](http://www.amazon.co.uk/dp/1617290084), it's very good.)

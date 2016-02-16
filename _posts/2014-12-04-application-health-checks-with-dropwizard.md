@@ -14,7 +14,7 @@ Of particular interest to me is that DropWizard provides health checks and encou
 
 If you are creating a service-oriented or more distributed application (especially as [micro services](http://martinfowler.com/articles/microservices.html) becomes more popular an approach) then considering the needs of choreographing and monitoring the application, determining the health of any given component is very important. If you know the downstream system you’re going to call it’s alive then you can avoid calling it and present reduced features to caller or user, or perhaps take an alternate system flow, or trigger some alert. Knowing that parts of your system are down or not working is really helpful.
 
-###Health check basics
+### Health check basics
 
 DropWizard's standard health checks are implemented by extending the `HealthCheck` base class and returning `healthy` in the happy case and `unhealthy` in the sad case. The most basic example would be to just return a healthy result so long as the app is up.
 
@@ -50,7 +50,7 @@ This can be called by something as basic as curl, or something fancier like [Nag
 
 This will at least tell us that by trying to call this endpoint, if we get a 200 response then the service is running and everything in between is connected enough for us to talk to it.
 
-###Health check yourself before you wreck yourself
+### Health check yourself before you wreck yourself
 
 However while useful to know, just returning “I’m alive” isn’t always as useful as finding out if the service you are creating can actually carry out its own main responsibilities.
 
@@ -112,7 +112,7 @@ Registering these health checks with the environment in the same way as the firs
     * downstream-client: OK
     * database: OK
 
-###Extending the pattern
+### Extending the pattern
 
 The DropWizard documentation will get you this far, but we’ve found it useful to extend this pattern a little when we’re managing a system composed of multiple DropWizard applications which call each other and expose health checks to each other.
 

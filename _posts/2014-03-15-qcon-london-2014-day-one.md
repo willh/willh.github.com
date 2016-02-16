@@ -20,7 +20,7 @@ This post is a coagulation of my notes from the first day of QCon London, so it'
 
 <br />
 
-####<a id="opening_keynote"> </a>Opening Keynote - Life, The Universe And Everything
+#### <a id="opening_keynote"> </a>Opening Keynote - Life, The Universe And Everything
 *by [Damian Conway](http://damian.conway.org/)*
 
 Damian Conway was back again at QCon this year with the opening keynote, with a very specific topic of 'Life, The Universe and Everything'. For 'Life' he began by describing [Conway's game of life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) (no relation) and how the cellular automaton can provide a full computational platform. This was an interested suggestion which he backed up by demonstrating how various self-replicating and migrating patterns can be used to form logic gates by combining streams of 'gliders'.
@@ -37,7 +37,7 @@ The culmination of the talk was a demonstration of the Maxwell's demon cellular 
 
 <br />
 
-####<a id="etsy"> </a>Development, Deployment & Collaboration at Etsy
+#### <a id="etsy"> </a>Development, Deployment & Collaboration at Etsy
 *by [Daniel Schauenberg](https://twitter.com/mrtazz)*
 
 Daniel's talk on continuous delivery at [Etsy](http://www.etsy.com) was an interesting one and surprisingly showed a highly performing set of teams working on a mostly monolithic PHP application. Search and photos at Etsy are split out from the main application and use Java, but the main Etsy product is a LAMP stack augmented with [Redis](http://redis.io) and [Memcached](http://memcached.org).
@@ -54,7 +54,7 @@ Etsy have a war room IRC channel to discuss outages and do post-mortems after si
 
 <br />
 
-####<a id="devops"> </a>Devs Programming Ops For DevOps Success
+#### <a id="devops"> </a>Devs Programming Ops For DevOps Success
 *by [Damon Edwards](https://twitter.com/damonedwards)*
 
 Damon began his talk by talking about the purpose of DevOps as he sees it: to break down silos in the software development stream, to improve time to market by closing the gaps between dev and ops. Damon talked about a dev-initiated transformation of ops, started by having individual developers taking an 'ops first' mindset when working on their code.
@@ -71,7 +71,7 @@ Damon also talked about establishing a new model for working with ops - describi
 
 <br />
 
-####<a id="crypto"> </a>How I Learned To Stop Worrying And Love Crypto
+#### <a id="crypto"> </a>How I Learned To Stop Worrying And Love Crypto
 *by [Graham Steel](https://twitter.com/graham_steel)*
 
 I went along to this talk because I know that crypto is not one of my strong points. I've implemented PKI in systems, basic symmetric and asymmetric encryption and have a decent awareness of security but I'm aware that it's a huge space with a lot going on that I've barely scratched the surface. I thought it'd be good to at least pick something up from QCon that helped my knowledge in this area and particularly in the wake of the [Snowden revelations about RSA](http://www.reuters.com/article/2013/12/20/us-usa-security-rsa-idUSBRE9BJ1C220131220) I was interested to see if that changed security experts' thoughts about encryption.
@@ -102,7 +102,7 @@ Graham concluded his talk by advising us to use mature, open, checked protocols 
 
 <br />
 
-####<a id="cd"> </a>The Process, Technology and Practice of Continuous Delivery
+#### <a id="cd"> </a>The Process, Technology and Practice of Continuous Delivery
 *by [Dave Farley](https://twitter.com/davefarley77)*
 
 Dave Farley is one half of the pair who literally wrote the book on Continuous Delivery (CD) so I thought this talk would be good. Early and continuous delivery of valuable software is the first principle behind the agile manifesto and represents a holistic approach to development: from concept to production. Dave started his talk by going over the basics of CD and then followed up with principles and practices.
@@ -123,7 +123,7 @@ Dave described how using this system they had no bugs identified in production f
 
 <br />
 
-####<a id="cap"> </a>Exploting Loopholes in CAP Theorem
+#### <a id="cap"> </a>Exploting Loopholes in CAP Theorem
 *by [Michael Nygard](https://twitter.com/mtnygard)*
 
 Michael Nygard began his cheekily named talk with an explanation of [CAP theorem](http://en.wikipedia.org/wiki/CAP_theorem). The short explanation for those who can't be bothered to click through to Wikipedia is that consistency requires all nodes in a distributed system to agree on all values, availability requires that a request arriving at a node will be given a response, and partition tolerance requires that some subset of messages between nodes will be lost if the system is to remain active (otherwise the entire system goes down when one node goes down). 
@@ -148,7 +148,7 @@ Overall, Michael's point in this talk was to get people to think about CAP and h
 
 <br />
 
-####<a id="devops_bank"> </a>DevOps At A Small International Bank
+#### <a id="devops_bank"> </a>DevOps At A Small International Bank
 *by [Olla Ellnestam](https://twitter.com/ellnestam)*
 
 Olla talked about his experience at a small online bank responsible solely for loans and savings, and their journey towards DevOps over the last number of years. The bank had a very small number of staff, a well understood architecture and three main values in system development: minimalism, pragmatism and holism.
@@ -163,7 +163,7 @@ In 2010 they went from deployment decisions of "let's schedule a date" to "let's
 
 <br />
 
-####<a id="browser"> </a>Does The Browser Have A Future?
+#### <a id="browser"> </a>Does The Browser Have A Future?
 *by [Tim Bray](https://twitter.com/timbray)*
 
 Tim Bray's closing keynote on the first day inverts [Betteridge's law of headlines](http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) asking if the web browser has a future in our interactions over the internet. Tim's talk was curiously not based in slides but in browser tabs. Every new 'slide' was in the next tab over, which was different but also useful for Tim to demonstrate many screengrabs of websites during the presentation. The fact that he didn't close each tab as he was done with them drove me a little mad though.

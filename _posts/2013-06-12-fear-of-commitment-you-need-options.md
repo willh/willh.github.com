@@ -7,7 +7,7 @@ tags: ["lean", "real options", "feature injection", "deferred decisions", "proje
 ---
 {% include JB/setup %}
 
-###A Business Novel in Graphic Form
+### A Business Novel in Graphic Form
 
 <a href="../../../../assets/images/20130612_commitment_real_options.jpg"><img src="../../../../assets/images/20130612_commitment_real_options.jpg" alt="A sample of the art and content in Commitment" title="A sample of the art and content in Commitment" height="600" width="600" style="margin-bottom: 20px;" /></a>  
   
@@ -16,7 +16,7 @@ Last week I picked up a new book about managing project risk called [Commitment]
 
 The book centres around a project manager called Rose who is drafted in at short notice to turn around a failing project. Like in The Goal, the main character discovers new ways of approaching her work and applies them to discover new ways to apply the principles across her environment - demonstrating that the principles are fundamental rather than context-specific. The 'sequential art', as the inside of the dust cover calls it, is drawn to a high standard by Chris Geary and I think the visuals add more than text alone simply would (such as facial expressions and the high level view of the [Kanban][1] board).
 
-###Real Options
+### Real Options
 
 The book describes how Rose can manage risk to her project by exploring the concept of [Real Options](http://www.infoq.com/articles/real-options-enhance-agility). Real Options are a concept created by the application of the notion of a [financial option][2] (the *right*, but not *obligation* to perform a certain act, e.g. buying shares) with a little bit of understanding of human psychology, to real life situations. This results in the ability to defer certain decisions to the last responsible moment. Real Options intentionally inject controlled uncertainty in order to avoid the typical human response to just make a decision - any decision at all, even if wrong - instead of deferring it until later.
 
@@ -33,7 +33,7 @@ It's also interesting to see how Rose moves from an overly complex WBS gantt cha
 
 Maassen and Matts, in Commitment, also discuss [Feature Injection](http://www.infoq.com/articles/feature-injection-success) - how a focus on the goal for the solution helps identify options that would be obscured simply by focusing on the current feature list: *"The great thing about starting at the end is that you cannot miss something that is needed to produce the outcome. Not only that, but you do not include things that are unnecessary"*
 
-###Applying Real Options
+### Applying Real Options
 
 I found the well-explained description of these concepts very valuable as recently I've tried to describe to others the benefits of responsibly deferred decisions compared to making decisions at the moment of greatest ignorance - the very outset. I am also reminded of the talk [Uncle Bob](http://cleancoders.com) gave at NDC Oslo in 2012 [in which he talked about deferring technology decisions](http://vimeo.com/43612849) so that they could be made with more knowledge of the actual requirements. 
 

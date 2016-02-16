@@ -16,7 +16,7 @@ Considering, understanding and using the values and practices behind the Kanban 
 
 
 
-###The History
+### The History
 
 Kanban (with a capital ‘K’) was formulated over the last 8~ years by [David J Anderson](http://twitter.com/lkuceo) and draws on principles from the [Theory of Constraints](http://en.wikipedia.org/wiki/Theory_of_constraints), [Toyota Production System](http://en.wikipedia.org/wiki/Toyota_production_system) and [Lean](http://en.wikipedia.org/wiki/Lean_software_development) in order to create a way of improving and evolving processes and systems without the friction and emotional inertia of a big-bang all-change transformation. 
 
@@ -27,7 +27,7 @@ Kanban has four main principles describing the intent of the method and six supp
 
 
 
-##4 Principles
+## 4 Principles
 
 
 **Start with what you do now**  
@@ -45,7 +45,7 @@ All team members from management down to individual contributors should be enabl
 
 
 
-##6 Practices
+## 6 Practices
 
 **Visualise workflow**  
 Show work items and states in a visual process flow; on a virtual board or physical kanban board. A Kanban implementation doesn’t need to have physical cards (and that can be different with distributed teams). A virtual board representation in a task tracking system can be used too (I like [Trello](http://www.trello.com) personally).
@@ -68,7 +68,7 @@ Use a model based method to identify and exploit opportunities for positive chan
 
 
 
-###A Systems Thinking Approach
+### A Systems Thinking Approach
 
 This sounds like a lot, but in reality it's more of a mindset shift towards changing the current process for the better and the things that are required to enable that. It's not like jumping into Scrum straight from a waterfall methodology, and it can be used to take a Scrum-based process which may have stagnated towards a process of ongoing improvement.
 
@@ -77,7 +77,7 @@ This sounds like a lot, but in reality it's more of a mindset shift towards chan
 
 
 
-###The Operations Review
+### The Operations Review
 
 The Operations Review is a feedback loop described like a kind of cross-project retrospective focusing on quantitative reporting on how the organisation is performing, rather than the low-level, higher detail qualitative result of a typical sprint retrospective. Attendees can reflect on the higher-level data provided about the processes presented and how they interact, so that they can suggest changes or improvements. 
 
@@ -86,7 +86,7 @@ This involves open and objective feedback from managers across projects and in w
 
 
 
-###Other Goodies
+### Other Goodies
 
 In the Kanban book, Anderson talks about a few things that seem to be skimmed over in some texts on agile development methodologies, such as co-ordination between and across teams using a Kanban system. He talks in particular about using Kanban to create a lean and agile approach to software delivery with teams in maintenance mode and which deal with different service levels for bugs and urgent issues as well as ongoing development. There is some very interesting material on this and 'class of service’ for work items, which I haven’t really found a lot of good material about in other methodologies.
 
@@ -97,7 +97,7 @@ One of the most interesting parts of these sections I found was the rule of thum
 
 
 
-###Try Kanban
+### Try Kanban
 
 Consider the principles and practices I’ve described above and how you could apply them to your work. It doesn’t have to be a Scrum-influenced agile development process; after all Kanban is intended to be a method for evolving an existing process to become more agile, it’s not a new process you drop in instead of your current one. Making small, measurable changes is the easiest way to start.
 

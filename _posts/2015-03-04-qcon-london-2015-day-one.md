@@ -19,7 +19,7 @@ Another year, another QCon. I'm glad this is becoming a bit of a tradition for m
 
 <br />
 
-####<a id="microservices"> </a>Microservies and Evolutionary Architecture
+#### <a id="microservices"> </a>Microservies and Evolutionary Architecture
 *by [Rebecca Parsons](https://twitter.com/rebeccaparsons)*
 
 Rebecca Parsons is the chair of the Agile Alliance and [ThoughtWorks](http://www.thoughtworks.com)' CTO and had the first presentation of the day giving a view of microservices and the direction they lead us towards: evolutionary architecture. This paved the way for quite a lot of the rest of the conference it seems, having a lot of the architecture talks cover this topic in some way, and there being in fact a microservices track on the Friday.
@@ -42,7 +42,7 @@ Microservices is clearly a hot topic right now, but requires discipline, insight
 
 <br />
 
-####<a id="scala_enterprise"> </a>Scala in the Enterprise
+#### <a id="scala_enterprise"> </a>Scala in the Enterprise
 *by [Peter Pilgrim](https://twitter.com/peter_pilgrim)*
 
 Peter began by quoting [Dianne Marsh](https://twitter.com/dmarsh), Director of Engineering at Netflix: "Learn a new language!". I'd like to spend some more time learning new languages as I think it's a good way to learn how to think differently about problems. I went along to the Scala talk because I've mostly been writing Java recently and I thought I'd like to refresh my Scala skills and see how people are using it in bigger companies and the problems they've had with adoption, Java interop etc.
@@ -57,7 +57,7 @@ Peter finished his talk by stating that while Java 8 is new, Scala is here alrea
 
 <br />
 
-####<a id="crime_scene"> </a>Treak you code like a crime scene
+#### <a id="crime_scene"> </a>Treak you code like a crime scene
 *by [Adam Tornhill](https://twitter.com/adamtornhill)*
 
 Adam had a really interesting talk; a take on analysis of existing codebases from a forensic angle using psychology to understand where complexities lie, where change happens the most and to plot where issues may arise.
@@ -82,7 +82,7 @@ In the future, Adam wants to see more advanced behavioural analysis of the code 
 
 <br />
 
-####<a id="architect_world_view"> </a>An Architect's world view
+#### <a id="architect_world_view"> </a>An Architect's world view
 *by [Colin Garlick](http://www.softed.com/Staff/ColinG.aspx)*
 
 Colin began his talk by outlining the structure of the architectural world view he wanted to describe: values leading to principles which are implemented by practices. The analogy given was how the agile manifesto states core values, and is backed by more specific principles and then implemented with particular practices. So without getting as prescriptive as practices, Colin told us about the values that he thought a conscientious architect should have and the principles they inform.
@@ -118,7 +118,7 @@ Instead of prescribing individual practices to underpin these principles, Colin 
 
 <br />
 
-####<a id="adjusting_architecture"> </a>Adjusting your architecture
+#### <a id="adjusting_architecture"> </a>Adjusting your architecture
 *by [Rachel Laycock](https://twitter.com/rachellaycock)*
 
 Rachel Laycock is a Technical Principal at Thoughtworks, and gave a highly animated talk on implementing continuous delivery by adjusting your architecture. Rachel began by describing the scenario when she was brought into a client site and given a demand by a customer exec "We want Continuous Delivery". From working with the client and understanding their environment Rachel's response was "you can't have CD" - not a satisfying answer for an exec who wants to get to value. When working with the client and their complex codebase, Rachel came across a lot of the aspects of ["you must be this tall to ride"](http://martinfowler.com/bliki/MicroservicePrerequisites.html) barriers to entry of a microservices architecture and implementing CD. Three of the main things she learned were the implications of Conway's Law, the importance of keeping things simple, and evolving the architecture.
@@ -139,7 +139,7 @@ Rachel finished off her talk with calling for an appreciation of evolvability in
 
 <br />
 
-####<a id="culture_moo"> </a>Cake driven development - culture at Moo
+#### <a id="culture_moo"> </a>Cake driven development - culture at Moo
 *by [Mike Pearce](https://twitter.com/mikepearce)*
 
 Mike is a development manager at [Moo](http://www.moo.com) (that place that does the nice business cards) and described the journey that Moo has taken as a growing startup in addressing greater demand from the business and preserving a quality engineering culture.
@@ -158,7 +158,7 @@ In day to day work terms, Mike described the culture in Moo as being focused on 
 
 <br />
 
-####<a id="africa"> </a>Software tales from the continent
+#### <a id="africa"> </a>Software tales from the continent
 *by [Betty Enyonam Kumahor](https://twitter.com/enyok)*
 
 Enyo took to the stage for the closing keynote to give us an insight into some of the different challenges and opportunities that are encountered in Africa in software development. This was a really interesting session, giving a completely different view to how to enhance people's lives with technology than the standard software company style of talks that filled the rest of the conference.

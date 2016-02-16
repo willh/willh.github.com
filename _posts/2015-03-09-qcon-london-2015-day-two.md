@@ -19,7 +19,7 @@ Thursday was opened by the Google keynote on managing their own server container
 
 <br />
 
-####<a id="google_cluster"> </a>Keynote: Cluster management at Google
+#### <a id="google_cluster"> </a>Keynote: Cluster management at Google
 *by [John Wilkes](http://research.google.com/pubs/JohnWilkes.html)*
 
 Google, a company of which many of you will have heard, has spent the last 15 years investing in creating the world's largest and fastest cloud infrastructure in its network of data centres. Briefly showing some impressive pictures and giving an overview of scale, John Wilkes, Principal Software Engineer at Google, then got straight into the examples of starting up services on Google's internal cloud. Beginning with a simple 'hello world' service, John then created a cluster configuration request for 10,000 instances.
@@ -48,7 +48,7 @@ John ended the keynote by summarising with a call for incremental improvement, s
 
 <br />
 
-####<a id="securing_paas"> </a>Securing PaaS with Docker and Weave
+#### <a id="securing_paas"> </a>Securing PaaS with Docker and Weave
 *by [David Pollack](https://twitter.com/dpp)*
 
 David Pollack, the creator of [Lift](http://liftweb.net), began his talk about securing PaaS stating he believe that security skills require a different mentality to most developers, and understanding of more granular responsibilities. David said that he wanted to try and hire more replaceable people rather than creating esoteric tech experts (for obvious business reasons) so he preferred more widely understood and adopted technologies for securing his platforms - Docker and IP tables being better collectively understood than JVM Security Manager, in David's example. David also praised Docker's ease of use, providing a declarative format for configuration instead of relying upong Perl scripts and raw [LxC containers](https://linuxcontainers.org/)
@@ -63,7 +63,7 @@ David said that he was happy with Docker's security as LxC containers are a reas
 
 <br />
 
-####<a id="docker_go"> </a>Infrastructure and Go
+#### <a id="docker_go"> </a>Infrastructure and Go
 *by [Jessie Frazelle](https://twitter.com/frazelledazzell)*
 
 Jessie is a core contributor at [Docker](https://www.docker.com) and gave a presentation about how Docker is built with [Go](http://golang.org). After the previous talk which was quite detailed in terms of using Docker to build a PaaS, I thought I'd benefit from a slightly higher level intro into Docker, and I haven't used Go in production before so I was interested in hearing about why they chose it.
@@ -76,7 +76,7 @@ The Go language was chosen by the Docker team for a number of reasons: it's simp
 
 <br />
 
-####<a id="docker_vs_paas"> </a>Docker vs PaaS
+#### <a id="docker_vs_paas"> </a>Docker vs PaaS
 *by [Colin Humphreys](https://twitter.com/hatofmonkeys) and [Paula Kennedy](https://twitter.com/PaulaLKennedy)*
 
 This talk by Colin Humphreys and Paula Kennedy, CEO and COO of [CloudCredo](http://www.cloudcredo.com), was given in another face off style rap-battle-esque format like the [Scala and Grails talk](http://willhamill.com/2013/03/08/qcon-london---day-three/#play-vs-grails---a-fireside-chat) I attended in 2013 so I was somewhat apprehensive. However, this talk was full of demos and specific example comparisons to back up the two sides and worked very well overall. Paula and Colin clearly get along well so the antagonistic nature of the format worked without being awkward, as they represented the 'business' side and the 'innovation/tech' side of our desires for working with software.
@@ -97,7 +97,7 @@ Overall I was convinced that the argument comes down again to whether you want t
 
 <br />
 
-####<a id="docker_clustering"> </a>Docker clustering: batteries included, but removable
+#### <a id="docker_clustering"> </a>Docker clustering: batteries included, but removable
 *by [Jessie Frazelle](https://twitter.com/frazelledazzell)*
 
 The Docker fun train continues at full speed with Jessie's second talk about how Docker clusters can be managed using out-of-the-box (OOTB) tools, and how if you really feel strongly about it, you can use something else due to Docker's plugin approach.
@@ -118,7 +118,7 @@ Wrapping up, Jessie outlined the future direction of Swarm; rescheduling policie
 
 <br />
 
-####<a id="big_java"> </a>Responding rapidly when you have 100GB+ data sets in Java
+#### <a id="big_java"> </a>Responding rapidly when you have 100GB+ data sets in Java
 *by [Peter Lawrey](https://twitter.com/peterlawrey)*
 
 Peter's talk about managing Java applications which use vast in-memory data sets was interesting, and quite detailed at a low level compared to other talks at the conference. Some of the notes I have taken aren't very useful without the accompanying slide diagrams showing how memory spaces are mapped and constrained at different JVM versions and address space lengths, so [check out the QCon site in case the slides go up](http://qconlondon.com/presentation/responding-rapidly-when-you-have-100gb-data-sets-java) for a visual accompaniment.
@@ -137,7 +137,7 @@ A question I asked of Peter was at what point you want to make a call on the inv
 
 <br />
 
-####<a id="protocols"> </a>Protocols: the glue for applications
+#### <a id="protocols"> </a>Protocols: the glue for applications
 *by [Torben Hoffman](https://twitter.com/lehoff)*
 
 The last talk of the day was by Torben Hoffman of [Erlang Solutions](https://www.erlang-solutions.com) about how Erlang encourages a different approach to designing systems; a process-oriented asynchronous style with a focus on understanding how the interactions between communicating processes should be designed - hence protocols.

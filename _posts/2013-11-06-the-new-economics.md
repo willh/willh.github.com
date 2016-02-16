@@ -17,7 +17,7 @@ I really enjoyed this book and the lessons I learned from it were quite similar 
 
 
 
-##Ranking, Rating and Traditional Reviews
+## Ranking, Rating and Traditional Reviews
 
 Deming is well known for his outspoken views on ranking and rating employees using traditional merit systems, though many enterprises still seem wedded to it (and some more than others). According to Deming "*Ranking is a farce. Apparent performance is actually attributable mostly to the system that the individual works in, not to the individual himself*". This still seems pretty controversial to me and I struggle to conclude what I think about it overall. I certainly think that the forced ranking or fitting of any assessment to a bell curve (as happens at some larger companies I know of, particularly some financial companies) is at best disingenuous and at worst a dishonest malpractice designed to limit bonus pots and stratify the organisation. 
 
@@ -28,7 +28,7 @@ Deming argues that the ranking system introduces competition between people and 
 
 
 
-##Systems Thinking: Competition vs Cooperation
+## Systems Thinking: Competition vs Cooperation
 
 A system is a collection of functions with a constancy of purpose. Sub-divided parts within that system must understand the goal and must work together towards the goal without acting as a selfish, localised profit centre. Particularly inside an organisation, internal competition is poisonous compared to internal cooperation. Deming hammers it home early on: "*The secret is cooperation between components towards the aim of the organisation. We cannot afford the destructive effect of competition*". This can all too often be seen in organisations as they grow larger. The organisation is split into silos or 'business units' or 'divisions' or some other grouping and then they are usually pitted against one another through short term goals, financial incentives and other cooperation destroying targets. Bickering over costs and revenues between components caused by competition harms the system as a whole. 
 
@@ -39,7 +39,7 @@ A component must consider how its actions work towards the goal of the system ra
 
 
 
-##Statistical Process Control
+## Statistical Process Control
 
 One of the main themes was the idea of statistical process control and the process of attempting to ensure better quality output of work by reducing the spread of quality caused by common causes of variation, and eliminating factors which lead to special causes of variation. A common cause of variation is a natural statistical fluctuation within probabilistic bounds, such as flipping a coin three times and occasionally getting three heads - a result that needs no real explanation. A special cause of variation is an attributable-cause event such as productivity loss in the dev team caused by a flooded server room - a result in which we would be interested in an explanation and in finding ways to prevent the event from recurring.
 
@@ -50,7 +50,7 @@ An employee thinks that every single time he is late, it is because of some spec
 
 
 
-##Whatever Mate, Go Back To Manufacturing
+## Whatever Mate, Go Back To Manufacturing
 
 "But Will", I hear you say. "We don't work on the factory floor making widgets for a Toyota subcontractor, how is this relevant to us?" I understand this criticism - it seems Lean and other forms of process level approaches sometimes come under this criticism and I can see why. Knowledge work is not the same as the process- and input-constrained practical or mechanical (for want of a better word) style of work that inspired these approaches to management and the people involved have more of an input on quality outcome than machine operators - but a significant impact still remains due to the quality going in and the constraints of the system, as in traditional engineering, and I believe a systemic overview can still be of benefit. 
 

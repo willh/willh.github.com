@@ -19,7 +19,7 @@ To me this seems to be caused both by perfectionism (and the desire to only proj
 This feeds procrastination and delays the benefits of incremental changes while we hold out for the 'perfect solution': the miracle process without any drawbacks and which rains benefits. In software development this leads us to delay releases until we have polished and [gold plated][1] everything even if it could be used now.
 
 
-###Defeating the Fallacy
+### Defeating the Fallacy
 
 How do we deal with this? We must accept the need for change to the process and that while not perfect, the change may nonetheless be beneficial. Likewise accept that while the software isn't perfect yet, we can use it to gain some value or inform some business decision. We must remember that the goal is not necessarily to be perfect but to create some sort of positive impact.
 
@@ -30,7 +30,7 @@ Be aware of when you fall prey to the nirvana fallacy in making your decisions -
 Fundamentally: accept that no perfect solution exists or even that more value will be created by small and continuous improvements rather than a more expensive and fallible attempt to jump to 'perfect'. Let go of the need to create something perfect and enjoy the positive impact you can create now and on an ongoing basis as you learn and improve upon the solution.
 
 
-###A Process of Continuous Improvement
+### A Process of Continuous Improvement
 
 Combat perfectionism with science and fear with support: create a culture where experimentation is encouraged; make iteration towards the goal the norm and treat failures as learning opportunities.
 

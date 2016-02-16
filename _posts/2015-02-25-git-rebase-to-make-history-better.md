@@ -10,7 +10,7 @@ tags: ["git", "source control"]
 
 Having recently written this post up as a wiki page for a project in work, I figured it'd be nice to share it with the wide world for anyone working on a shared codebase with occasionally messy git history.
 
-### Git What?
+###  Git What?
 
 `git rebase`
 
@@ -22,7 +22,7 @@ If you have pushed your branch and still want to rebase, skip down to Advanced T
 
 *To do this you'll need to use git itself. If you're using SourceTree, you will need to read their documentation on how to do this. So use git. It's actually pretty easy.*
 
-### Why?
+###  Why?
 
 Change history so that instead of your commit log looking like this:
 
@@ -39,7 +39,7 @@ It looks like this wonderful thing:
 
 This makes it easier to work with revisions and the log for the repository shows clearly the work we've been adding.
 
-### How?
+###  How?
 
 Follow the steps below to rebase three commits into a single aggregated change.
 
@@ -160,7 +160,7 @@ Now check your `git log` to see the cleaner history:
 
 Et voilà, your file and its updates are all merged into one commit. Now nobody will ever know you forgot to add the third change in with the second commit. Your secret is safe with git.
 
-### Pulling changes from master
+###  Pulling changes from master
 
 It is worth to pull changes from master frequently into your local branch while you work on your feature. If you want to retain ability to squash all your commits even after pulling changes from master, use git rebase instead of git merge. To do that run
 
@@ -175,7 +175,7 @@ What is the result?
 Your commits are still on the top of your branch, the commits from master are put beneath them, your commits are not the same anymore.
 
 
-### Advanced Topics
+###  Advanced Topics
 
 *"I've already pushed my branch for a code review/created a pull request. I want to combine the commits I made before and after the review"*
 

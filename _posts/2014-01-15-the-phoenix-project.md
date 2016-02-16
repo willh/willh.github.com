@@ -13,7 +13,7 @@ After I found [The Goal](http://www.amazon.co.uk/The-Goal-Process-Ongoing-Improv
 
 Many of the other characters follow tropes that will be predictable to some and grimly familiar to others - the manager who cares only about his own deadlines, the egocentric executive, the irreplaceable tech genius omni-required bottleneck engineer, the eccentric and frustratingly vague advisor. The strong, admirable male characters: Protagonist, CEO and Advisor are all inexplicably ex-military too.
 
-###Surprisingly Up-to-date
+### Surprisingly Up-to-date
 
 Perhaps it's because I've read The Goal somewhat recently and I'm joining the W. Edwards Deming party late that I'm surprised that this book is full of up-to-the-minute reference to other modern books on good IT management and development practices. It feels like I'm somehow in on it when Erik quotes [Kanban](http://www.amazon.co.uk/Kanban-David-J-Anderson/dp/0984521402/) by [David J Anderson](http://twitter.com/lkuceo) and I've read the book. 
 
@@ -23,7 +23,7 @@ Interestingly the word 'agile' is used in only one place in the entire book and 
 
 I've put together at the end of this blog post a list of references to other books that I can find the characters discussing. They're all definitely worth checking out.
 
-###Knowledge Work Isn't Unknowable
+### Knowledge Work Isn't Unknowable
 
 I keep reading in places that some people consider the application of flow-management techniques or other abstract methods to the detailed knowledge and discovery based work of Software Engineering to be inappropriate. I can't help feeling that while on the micro level they'd be right, on the macro level it seems to 'average out' and become a useful abstraction again. It's not useful to have people arguing over the exact hours-spent difference between two 2 point user stories but the notion of managing the flow of work items into a team using typical lean approaches does work in practice.
 
@@ -31,7 +31,7 @@ Personally I think that it's acceptable to treat the flow of work similarly betw
 
 When difficulties happen or things go wrong and we have variation within the process and things don't fit into our graphs, we have to remember that inside the system are talented professionals doing their best with what they are given and we need to eschew the abstract approach for the humanistic. Individuals and interactions over processes and tools, [as it were](http://agilemanifesto.org).
 
-###The Three Ways
+### The Three Ways
 
 In The Phoenix Project, Bill discovers The Three Ways - a trio of principles used to improve the relationship between Dev and Ops, and to improve the processes used to control the throughput of work throughout the organisation. The First Way describes Systems Thinking: Bill grows to realise that in order to meet the business' objectives and produce valuable change faster, local optimisation of the operations group or development group may come at the expense of optimisation of the whole system. The best way to have positive impact is to take a whole-system view. 
 
@@ -41,11 +41,11 @@ The Second Way as used by Bill is to implement feedback loops. Bill fairly rapid
 
 The Third Way is creating a culture that promotes both mastery of the current process through repetition (for example, repeatedly doing and documenting deployments until they become less unknown and risky) and continual experimentation (taking small risks in an attempt to learn new things to improve the process). In Bill's case, pushing the IT organisation from quarterly releases to multiple releases per day focuses on the repetition and also ties in to the concepts mentioned by Jez Humble & David Farley in their book Continuous Delivery when they say that the best way to become good at something that is risky and painful is to embrace the pain and reduce the risk by doing it more often and forcing yourself to learn how to do that more effectively - through automation.
 
-###Summary
+### Summary
 
 Overall I found that The Phoenix Project was an enjoyable and interesting read and I'm glad that it coherently brings together the many associated facets of modern management and IT practices. In my head it seems more clearly that fundamentally all of the things I've read on agile development, lean, Kanban, Theory of Constraints, Deming's System of Profound Knowledge and even [motivation](http://www.amazon.co.uk/Drive-Surprising-Truth-About-Motivates/dp/184767769X/) are all facets of the same concept of making people work more effectively. A good start to my 2014 to-read list!
 
-####Materials Referenced in The Phoenix Project
+#### Materials Referenced in The Phoenix Project
 
 [The Goal:](http://www.amazon.co.uk/The-Goal-Process-Ongoing-Improvement-ebook/dp/B002LHRM2O/) A Process of Ongoing Improvement by Eliyahu Goldratt  
 [The Five Dysfunctions of a Team](http://www.amazon.co.uk/The-Five-Dysfunctions-Team-Leadership/dp/0787960756/) by Patrick Lencioni  

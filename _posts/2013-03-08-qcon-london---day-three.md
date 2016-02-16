@@ -7,7 +7,7 @@ tags: ["qcon", "conference", "wiki", "play", "grails", "nosql", "mongodb", "gds"
 ---
 {% include JB/setup %}
 
-###Keynote - A Forward Look at Federated Wiki
+### Keynote - A Forward Look at Federated Wiki
 *by Ward Cunningham*
 
 The final day of the conference began with a keynote from Ward Cunningham, inventor of the wiki, [Extreme Programming Applied](http://www.amazon.co.uk/dp/0201616408) author and original signatory of the [agile manfiesto](http://agilemanifesto.org).
@@ -18,7 +18,7 @@ Like Wednesday's opening keynote I didn't take many notes here because the talk 
 
 ____
 
-###Play! Vs Grails - A Fireside Chat
+### Play! Vs Grails - A Fireside Chat
 *by David Dawson and Justin Holmes*
 
 To be honest this first morning session was a little disappointing. Being described as a fireside chat I expected two chairs, a table with some drinks on it, and a casual but candid discussion of the differences, strengths and weaknesses of the two frameworks in question here. Unfortunately it seemed to more have been orchestrated as a humourous tongue-in-cheek head-to-head fight, which was a bit awkward and unexciting.
@@ -29,7 +29,7 @@ It's important to understand that in different scenarios there is often a better
 
 ____
 
-###The Past, Present and Future of NoSQL
+### The Past, Present and Future of NoSQL
 *by Matt Asay*
 
 Matt is employed by 10gen, the makers of MongoDB and gave a talk on the emergence of NoSQL, the state of the union and briefly commented on where he thinks the future for these technologies lie. Matt described the history of data storage without SQL (which is not new!) and how the introduction of SQL in the 1970s was a great leap forward in decoupling the data storage schema design from the query design.
@@ -46,7 +46,7 @@ Matt suggested that the future of data storage lies in the 'polyglot persistence
 
 ____
 
-###Green Shoots in the Brownest Field: Startup in Government
+### Green Shoots in the Brownest Field: Startup in Government
 *by Mat Wall*
 
 Mat Wall is a Technical Architect with Government Digital Service (GDS) and works with Gareth Rushgrove who gave [a talk I attended on Wednesday](http://willhamill.com/2013/03/06/qcon-london---day-one/#clouds_in_government__perils_of_portability). Mat also covered the details of the history, and how & why GDS operate. Mat described the evolution of the tech stack of the GOV.UK platform, and how it was not necessarily intended from the start to be a platform but rather a solution to a problem. Mat described that letting the developers involved make most of the technical decisions rather than a traditional approach to 'strategic architecture' had enabled them to solve problems faster and with the most suitable tool for each part of the problem rather than being prescriptive and restrictive about implementation details.
@@ -61,7 +61,7 @@ This is quite a bit farther than most teams developing components can take the a
 
 ____
 
-###NoHR Hiring
+### NoHR Hiring
 *by Martijn Verburg & Kim Ross*
 
 This session on 'NoHR hiring' was titled as a pun on NoSQL. A lot of the material covered was the kind of stuff that makes sense but often falls out of the process when formalised, homogenised and passed through various compliance and legal filters. In this discussion Kim and Martijn described important ways to focus on seeking out getting the right people.
@@ -88,7 +88,7 @@ Kim and Martijn also described how as a business getting involved in the develop
 
 ____
 
-###Architecture of the Triposo Travel Guide
+### Architecture of the Triposo Travel Guide
 *by Douwe Osinga & Jon Tirsen*
 
 This final session was very interesting to me - I've never heard of Triposo before and I'm also in the process of planning out a holiday to the USA for later this year so it was quite useful to see what makes this company tick and how they differentiate from the competition. Triposo's main difference is that their travel guides are algorithmically generated rather than by hand, which means that they can collate and aggregate incredible amounts of data, gaining insights into sights, restaurants, events etc from a larger scale view.
