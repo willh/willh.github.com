@@ -14,7 +14,7 @@ Are you a LinkedIn recruiter? Are you getting poor conversion rates on your atte
 
 #### Agencies
 
-You're an agency recruiter and not an in-house recruiter for the interested company. In-house recruiters know more about the company/position and are more invested in actually finding the right person with the right cultural fit and not just getting someone signed and taking the cut (I know, I work some great ones at Kainos). I'm sorry, but if you're an agency recruiter you're starting off at a disadvantage and you're going to have to work harder for me to actually read the whole message, so don't phone the rest of it in: be aware of the other antipatterns below.
+You're an agency recruiter and not an in-house recruiter for the interested company. In-house recruiters know more about the company/position and are more invested in actually finding the right person with the right cultural fit and not just getting someone signed and taking the cut (I know, I work with some great ones at Kainos). I'm sorry, but if you're an agency recruiter you're starting off at a disadvantage and you're going to have to work harder for me to actually read the whole message, so don't phone the rest of it in: be aware of the other antipatterns below.
 
 
 #### Scattergun Approach
