@@ -14,14 +14,14 @@ Most of my experience is in Java and Scala web applications and web services, wi
 
 Boring disclaimer: You'd be mad to think that the views expressed here necessarily reflect the views of my employer, or our customers/clients/partners. That's crazy.
 
-###LinkedIn
+### LinkedIn
 
 I have a profile on [LinkedIn](http://www.linkedin.com/in/willhamill)
 
-###Twitter
+### Twitter
 
 You can follow me on Twitter [@willhamill](http://twitter.com/willhamill)
 
-###Email
+### Email
 
 You can also drop me an email at [will@willhamill.com](mailto:will@willhamill.com)
