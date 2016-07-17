@@ -11,7 +11,7 @@ Having spent the last few years developing web services mostly with [Dropwizard]
 
 Writing lots of services in Dropwizard often means you end up writing lots of web service clients for other applications to consume those services, and at [Kainos](https://www.kainos.com/careers/vacancies/) we have developed what we call the 'Courtesy Client' pattern for reusing client code across other services to save time writing another identical set of HTTP client methods but without being coupled to the service implementation.
 
-This post is illustrated by a [sample-service](GITHUB-LINK-HERE) [Dropwizard 0.9.3](http://www.dropwizard.io/0.9.3/docs/getting-started.html) project which when run will give you a basic working RESTful web service demonstrating this pattern.
+This post is illustrated by a [sample-service](https://github.com/KainosSoftwareLtd/sample-dropwizard-service/) Dropwizard 0.9.3 project which when run will give you a basic working RESTful web service demonstrating this pattern.
 
 The sample-service is built using [Gradle](https://gradle.org/) and consists of a three subproject structure with jars produced for API, service and client:
 
@@ -21,14 +21,14 @@ The sample-service is built using [Gradle](https://gradle.org/) and consists of 
 
 #### The API subproject
 
-API project used to define request & response objects for the HTTP interface. The classes are Jackson-annotated and where necessary [Swagger-annotated](https://github.com/swagger-api/swagger-core/wiki/Annotations-1.5.X).  The API project produces a jar file used to share the request & response objects between the client and service, so that the client does not depend on the service.
+The API project used to define request & response objects for the HTTP interface. The classes are Jackson-annotated [Data Transfer Objects](http://martinfowler.com/eaaCatalog/dataTransferObject.html) without logic that will be serialised to/from your preferred format (most commonly [JSON](http://wiki.fasterxml.com/JacksonHome) or [XML](https://github.com/FasterXML/jackson-dataformat-xml)). The API project produces a jar file used to share the request & response objects between the client and service, so that the client does not depend on the service.
 
 <br />
 
 
 #### The service subproject
 
-The service project is produces the jar file used to deploy and run the application. The service project is the core of the web service, hosting the HTTP server and processing responses. The service project depends on API – it takes the request objects and serves up response objects to meet the interface. The service project hides its implementation and internal domain objects from clients. See the [sample project](LINK-TO-SAMPLE-SERVICE-SRC-FOLDER) and how the `Person` class is defined only in the service project and mapped to the `PersonResponse` class to be used in the HTTP interface.
+The service project produces the jar file used to deploy and run the application. The service project is the core of the web service, hosting the HTTP server and processing responses. The service project depends on API – it takes the request objects and serves up response objects to meet the interface. The service project hides its implementation and internal domain objects from clients. See the [sample project](https://github.com/KainosSoftwareLtd/sample-dropwizard-service/blob/master/sample-service/src/main/java/com/sample/) and how the `Person` class is defined only in the service project and mapped to the `PersonResponse` class to be used in the HTTP interface.
 
 _Only_ the service project integration tests depend on the client project – this ensures that any breaking change to the API that was made by the service but not implemented in the client would cause tests to fail, as this represents a change to the contract for downstream consumers. Outside of the integration test code, the service project does not depend on the client project to run.
 
@@ -66,8 +66,8 @@ What if downstream consumers of the service aren't written in Java? Well, as the
 
 The sample service linked can be used as a seed project for Dropwizard web services, and implements a couple of useful aspects.
 
-The service project is a good citizen and [hosts Swagger API documentation](http://swagger.io/) for other clients to inspect and use to test the service. I've found this very useful both for testing the service and also to help produce good quality and up-to-date documentation.
+The service project is a good citizen and [hosts Swagger API documentation](http://swagger.io/) for other clients to inspect and use to test the service. The API classes are [Swagger-annotated](https://github.com/swagger-api/swagger-core/wiki/Annotations-1.5.X) for types that Swagger can't infer from the Jackson annotations (like how you want your dates serialised to JSON) and inside the Service project the resource classes defining the endpoint paths, headers and parameters are Swagger-annotated too. I've found this very useful both for testing the service and also to help produce good quality and up-to-date documentation.
 
-The [HTTP interface endpoints](LINK-TO-PERSON-RESOURCE-CLASS) are annotated with [Metrics](http://metrics.dropwizard.io/3.1.0/getting-started/) so that each request is timed for stats collection.
+The [HTTP interface endpoints](https://github.com/KainosSoftwareLtd/sample-dropwizard-service/blob/master/sample-service/src/main/java/com/sample/resource/PersonResource.java) are annotated with [Metrics](http://metrics.dropwizard.io/3.1.0/getting-started/) so that each request is timed for stats collection.
 
-The sample service also implements a [basic healthcheck](LINK-TO-HEALTHCHECK-CLASS) to facilitate monitoring as any responsible web service should do, which I've [blogged about before](http://willhamill.com/2014/12/04/application-health-checks-with-dropwizard).
+The sample service also implements a [basic healthcheck](https://github.com/KainosSoftwareLtd/sample-dropwizard-service/blob/master/sample-service/src/main/java/com/sample/health/BasicHealthCheck.java) to facilitate monitoring as any responsible web service should do, which I've [blogged about before](http://willhamill.com/2014/12/04/application-health-checks-with-dropwizard).
