@@ -13,6 +13,10 @@ Using one of the [innovation days that Kainos kindly provides me each month](htt
 
 The code for the helloWorldFunction lambda [is available on Github](https://github.com/willh/lambda-helloworld-config), which uses an API Gateway to expose access to the lambda using a path parameter as the input request object, pulls in DynamoDB config to set part of the response, and returns a mustache-templated HTML response to the user.
 
+#### Update
+
+[AWS Lambda can now be configured using Environment Variables](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-environment-variables-and-serverless-application-model/) which makes the majority of this post obsolete. I'm leaving it here for posterity, but if you want to configure your AWS Lambda then [using environment variables](https://aws.amazon.com/blogs/compute/simplify-serverless-applications-with-environment-variables-in-aws-lambda) is the best way to do it.
+
 
 ### Runtime configuration
 
