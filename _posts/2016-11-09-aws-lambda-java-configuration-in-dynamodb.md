@@ -11,11 +11,13 @@ tags: ["aws", "lambda", "java", "configuration"]
 
 Using one of the [innovation days that Kainos kindly provides me each month](https://www.kainos.com/careers/vacancies/), I've been playing about with AWS Lambda because I've heard an increase in hype from recent conferences and also because we're starting to look at this way of developing application services on some of our projects.
 
-The code for the helloWorldFunction lambda [is available on Github](https://github.com/willh/lambda-helloworld-config), which uses an API Gateway to expose access to the lambda using a path parameter as the input request object, pulls in DynamoDB config to set part of the response, and returns a mustache-templated HTML response to the user.
+The code for the helloWorldFunction lambda [is available on Github](https://github.com/willh/lambda-helloworld-config/releases/tag/v1.0), which uses an API Gateway to expose access to the lambda using a path parameter as the input request object, pulls in DynamoDB config to set part of the response, and returns a mustache-templated HTML response to the user.
 
 #### Update
 
 [AWS Lambda can now be configured using Environment Variables](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-environment-variables-and-serverless-application-model/) which makes the majority of this post obsolete. I'm leaving it here for posterity, but if you want to configure your AWS Lambda then [using environment variables](https://aws.amazon.com/blogs/compute/simplify-serverless-applications-with-environment-variables-in-aws-lambda) is the best way to do it.
+
+I've now updated the sample Lambda to pull in [configuration from an environment variable](https://github.com/willh/lambda-helloworld-config/releases/tag/v2.0), which is dead simple.
 
 
 ### Runtime configuration
