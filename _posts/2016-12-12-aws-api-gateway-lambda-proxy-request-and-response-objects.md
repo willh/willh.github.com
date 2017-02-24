@@ -35,6 +35,16 @@ Use the following ApiGatewayRequest object to properly map the incoming request 
 
 <script src="https://gist.github.com/willh/dc55a31467aa6be38497e1de19cf342b.js"></script>
 
+Which depends on the RequestContext object
+
+<script src="https://gist.github.com/willh/cb68cad2486565d87d4d3d7f961e1e05.js"></script>
+
+Which in turn depends on the Identity object
+
+<script src="https://gist.github.com/willh/4c40dd310f9fa205c406e1103f849f16.js"></script>
+
+Please note: these object definitions are reverse-engineered from the actual data sent to a Java Lambda and may likely change in future based on updates to the AWS APIs!
+
 
 ### POJO for the response object
 
