@@ -92,7 +92,7 @@ You seem to need a cultural shift when modernising, how do you handle that?
 How do you ensure your app is secure while fostering environment of collaboration?
 
 * Lothar - check if those guidelines are really needed, identify which ones are important and try to include in developer workflow. Automation and tooling to help comply with policies, if dev doesn't even know about it then that helps.
-* Cyril - code reviews help catch security issues, more eyes. Still have manual security teat.
+* Cyril - code reviews help catch security issues, more eyes. Still have manual security test.
 * Erik - also use SonarQube scanning for security warnings.
 
 How do you use Github in your company and what is the impact?
