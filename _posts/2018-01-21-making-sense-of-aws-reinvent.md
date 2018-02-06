@@ -11,11 +11,11 @@ tags: ["aws", "wardley mapping", "business", "cloud"]
 
 ### Amazon releases loads of new services
 
-Amazon released quite a lot of new services at AWS re:Invent. 61 new services or significant updates to existing services. Clearly they've been very busy.
+Amazon released quite a lot of new services at AWS re:Invent ([check out my previous blog post summarising the main announcements](http://willhamill.com/2018/01/16/aws-reinvent-2017-recap)). 61 new services or significant updates to existing services. Clearly they've been very busy.
 
 ![wordle word cloud of all 61 of the new or updated Amazon services from reInvent](../../../assets/images/20180121_aws_reinvent_wordle.png)
 
-But why these services in particular? What's driving them to creating these particular features in their platform, and how do they know people will want them? What does it mean for us? My job is to build and design computer systems and it means that Amazon (and Azure, and Google Cloud) are constantly changing the playing field when it comes to understanding the landscape of what technology is available to solve your problems and which things you have to build yourself.
+But why these services in particular? What's driving them to creating these particular features in their platform, and how do they know people will want them? What does it mean for us? [My job at Kainos](https://kainos.com/careers) is to build and design computer systems and it means that Amazon (and Azure, and Google Cloud) are constantly changing the playing field when it comes to understanding the landscape of what technology is available to solve your problems and which things you have to build yourself.
 
 <br />
 
@@ -29,7 +29,7 @@ Part of Amazon's strategy is and has long been to remove 'undifferentiated heavy
 
 ### So what does that mean?
 
-What it means is that if your job is to build things on top of computer platforms and low-level abstractions (i.e. most ISVs, development companies, outsourcing companies, consulting companies) then what you consider a low-level abstraction needs to change. At Kainos we focus our efforts on doing difficult digital transformation and development work, and we want to spend our customer's time and money as best we can to solve the particular unique problems they have and not on low-level things that we have to do just because it's a required building block.
+What it means is that if your job is to build things on top of computer platforms and low-level abstractions (i.e. most ISVs, development companies, outsourcing companies, consulting companies) then what you consider a low-level abstraction needs to change. At [Kainos](https://www.kainos.com) we focus our efforts on doing difficult digital transformation and development work, and we want to spend our customer's time and money as best we can to solve the particular unique problems they have and not on low-level things that we have to do just because it's a required building block.
 
 <br />
 
