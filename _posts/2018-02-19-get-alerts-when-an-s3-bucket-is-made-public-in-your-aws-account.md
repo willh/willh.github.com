@@ -49,4 +49,6 @@ If you want to audit bucket item-levels and in fact automatically set them back 
 
 ### Future development
 
-I've got some notes in the project `README.md` on where it can be extended in the future, but feel free to fork and send a pull request if there's something you think it should do. I'm [not exactly swimming in free time](https://en.wikipedia.org/wiki/Parenting) these days so the current points might take me a while.
+~I've got some notes in the project `README.md` on where it can be extended in the future, but feel free to fork and send a pull request if there's something you think it should do. I'm [not exactly swimming in free time](https://en.wikipedia.org/wiki/Parenting) these days so the current points might take me a while.~ 
+
+UPDATE 21/01/2018: To be honest I'll probably not put a lot of effort into extending this now that [Trusted Advisor does something similar](https://aws.amazon.com/about-aws/whats-new/2018/02/aws-trusted-advisors-s3-bucket-permissions-check-is-now-free/) (albeit on a scan-on-demand reactive basis without the user info 😏)!
