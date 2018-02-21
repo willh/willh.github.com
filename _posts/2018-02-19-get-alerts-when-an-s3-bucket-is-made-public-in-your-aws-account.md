@@ -27,6 +27,10 @@ To help with this, I've put together a couple of scripts that I'm calling [Henry
 
 This is based on a [NodeJS lambda function](https://aws.amazon.com/lambda/) triggered by a Cloudwatch Event rule, processing CloudTrail API logs to find S3 bucket permissions changes, and sending a notification via SNS (pronounced 'snooze', fact) if the bucket has public read or public write access.
 
+Henry will pull out some information about the user and the access method to help make finding the right person to talk to a bit easier. The content of the notification seems to trigger Google's magic formula and get flagged as 'important' in gmail too (though your mileage may vary).
+
+![Screenshot of inbox notifications of S3 bucket alert](../../../assets/images/20180219_inbox_notifications.png)
+
 Once you've been notified, you can go do something about it! Close the bucket off to public access, or stop worrying after talking to whoever created it and being satisfied with the use case. This setup won't _prevent_ a public bucket being created, and it's not quite realtime either (CloudTrail logs seem to take a minute or two to aggregate and be processed) but at least now you know. And [knowing is half the battle!](https://www.youtube.com/watch?v=ogEtfIdgjpY)
 
 ### Using Henry
