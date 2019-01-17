@@ -16,7 +16,7 @@ I'll use this post to briefly summarise and describe my thoughts on the new serv
 ##### tl;dr for busy people
 * Serverless gets updates for tooling and integrations, custom languages
 * More Machine Learning high level services, improvements to lower level services
-* AWS Outputs is the AWS gateway drug for cloud holdouts
+* AWS Outposts is the AWS gateway drug for cloud holdouts
 
 <br />
 
