@@ -61,7 +61,7 @@ Cloudflare also benefit from the fact that the V8 engine is subject to Google's 
 
 #### Final Thoughts
 
-For me, Cloudflare workers are a very interesting implementation of a serverless code execution platform. It will be good to see how Cloudflare progress in making local I/O type extensions to their platform so that people can use it for almost everything else a Lambda or Function can do. In the future, use of WebAssembly to allow other languages to be transpiled and executed inside the V8 isolates could bring a wider language support to Cloudflare workers.
+For me, Cloudflare workers are a very interesting implementation of a serverless code execution platform. It will be good to see how Cloudflare progress in making local I/O type extensions to their platform so that people can use it for almost everything else a Lambda or Function can do. Additionally, with support for WebAssembly this will allow other languages to be transpiled and executed inside the V8 isolates to bring wider language support to Cloudflare workers.
 
 The cost difference in focusing on very precise billing is attractive, but I don't think that for many people this yet would be enough to drive them from any of the other platforms - it feels like splitting hairs on a handful of dollars per month vs a smaller handful of dollars per month, compared to self-managed virtual infrastructure at many times this amount. However, as the idea of financial accounting objectives for function development grows this may start to become more of a big deal, and I imagine that this will in turn pressure other providers to move to a similar very precise billing model.
 
