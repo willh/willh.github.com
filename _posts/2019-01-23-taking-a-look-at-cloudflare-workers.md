@@ -43,7 +43,7 @@ At a broad stroke, Cloudflare Workers seems like a cut down version of the other
 
 #### Security Model
 
-Cloudflare admit that they are necessarily relying quite heavily on the security features of the V8 engine to ensure isolares are, well, isolated from each other and can't interfere with execution or inappropriately share memory with other functions executing in other threads in the same process. This obviously means you don't have the same depth in defence of the layers of isolation that come with running your function in a different process in a different container, like cgroups, namespaces and the various other operating system level protections that apply in a hypervised or container-based environment. These protections apply to the V8 engine running on Cloudflare's infrastructure, but not between threads within it.
+Cloudflare admit that they are necessarily relying quite heavily on the security features of the V8 engine to ensure isolates are, well, isolated from each other and can't interfere with execution or inappropriately share memory with other functions executing in other threads in the same process. This obviously means you don't have the same depth in defence of the layers of isolation that come with running your function in a different process in a different container, like cgroups, namespaces and the various other operating system level protections that apply in a hypervised or container-based environment. These protections apply to the V8 engine running on Cloudflare's infrastructure, but not between threads within it.
 
 Some mitigations that Cloudflare have in place against Spectre-like vulnerabilities between isolates in V8 which rely on timing and side-channel attacks are:
 
