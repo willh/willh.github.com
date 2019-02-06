@@ -1,32 +1,50 @@
 ---
 layout: post
 title: "Mapping the work of a Software Developer"
-description: ""
+description: "The technology landscape constantly evolves and yesterday's good practice becomes today's legacy approach. Using Wardley Maps we break up the activities involved in software development and identify patterns in changing practices. Using the maps, you can make decisions about where to grow your career or in which areas to focus learning in-demand skills."
 category: 
 tags: []
 ---
 {% include JB/setup %}
 
 developer career wardley map
+  - Tweet length-summary of purpose and goal
+  >> headline image of Wardley Map showing some dev skill stuff
 
-reference Forrest Brazeal's post
-  - https://forrestbrazeal.com/2019/01/16/cloud-irregular-the-creeping-it-apocalypse/
-  - great post about changing roles in a changing IT landscape
-  - what proportion of average IT sysadmin work now involves plugging in servers vs keeping an eye on cloudwatch alarms?
-  - move of previously custom work to managing of products to service abstraction removing all work entirely
-    - e.g. installing DB system with custom server, to installing DB product bundle on VM, to RDS or serverless DB
-  - what does this mean for people with skills in managing hardware racks and installing OS patches?
-  - same as it does for developers who write POJOs to implement a WSDL and configure jars in a servlet container
-  - you can for generate interface classes, you can use embedded-servlet, or a PaaS to run the apps
+## Why
 
-move up value chain
-  - so you'll constantly be at risk of having your work commoditised in increasing amounts
-  - to stay ahead you need to move up the value chain
-  - how to understand which parts are being commoditised, or might already be outside your org
-  - how to understand what areas are useful to be learning or pushing yourself towards to stay relevant and valuable
-  - try and break this down using wardley map to illustrate chain of valuable activities and tech evolution
+Some of these thoughts about how to use [Wardley Maps](https://www.slideshare.net/swardley/an-introduction-to-wardley-maps) have been kicking around in my head for some time, crystallising after reading [Forrest Brazeal's great post](https://forrestbrazeal.com/2019/01/16/cloud-irregular-the-creeping-it-apocalypse/) about the changing roles in an ever evolving IT landscape.
 
-map activities of a developer
+Evolution of technology and practices continues but what of the people who make their living building with, advising about, maintaining and operating that technology? What proportion, for example, of average IT sysadmin work now involves plugging in servers vs keeping an eye on AWS Cloudwatch alarms and Grafana dashboards?
+
+This evolution means a general move of previously custom work to managing of products to service abstraction removing almost all work entirely. Building on the previous example, we can see over the years that this has resulted in the role considered to be low-leve detailed technical work has radically changed in nature, e.g. installing a database system by purchasing and installing a custom server and configuring a database engine on top, to installing a DB product bundle on a VM, to using a tool to virtually provision a whole load-balanced database cluster and backup (such as Amazon RDS) or as far as setting up permissions for an application to communicate with a 'serverless DB' (such as Azure Cosmos DB) with no actual server instances or database engine patches or anything of the sort.
+
+What does this mean for people with skills in managing hardware racks and installing OS patches? Well, if you work with any people in 'devops' at the moment, just ask them - quite a lot of people with AWS and Azure infrastructure automation skills have backgrounds in systems administration and IT operations and they gradually or abruptly learned new skills and gained experience in new practices reflecting the 'new normal' of the ever-raising level of abstraction.
+
+### Nobody is safe
+
+This isn't something limited to IT operations. It may be a little slower in areas but it will generally be the same for software developers who write POJOs to implement a WSDL and configure WAR files in a servlet container, waking up one day to find that they can now generate POJO interface classes and use embedded servlets in their jars so they're spending more time externalising global state instead so a cloud-friendly caching product can be used and their apps can become stateless. The next week they come in to find they're now using a PaaS system that simply runs a jar with little additional intervention, adding a caching provider via configuration.
+
+Each one of these changes can be either gradual or abrupt but in order for you to be a highly valued software engineer in the marketplace, you will want to understand the landscape of technology to see how your skills and practices might change over time rather than slipping behind.
+
+### Staying valuable
+
+If you ignore the evolution trends in tech then generally speaking you'll be at risk of having your work cannibalised by others offering products to do the things you do by hand, or services that appear to do away with the thing you're an expert in altogether. Practices and tecnologies are commoditised in increasing amounts, so to stay ahead you need to move up the value chain, like the sysadmins who picked up the tools of virtualisation automation.
+
+To do this, it will help you to understand which parts of the technology landscape are being commoditised, or might already be outside your org that you haven't yet had a chance to see.
+
+It will also help you to understand what areas are useful to be learning or pushing yourself towards to stay relevant and valuable so you can try and get training, gain knowledge and practice, which will improve your worth to the organisation.
+
+To try and make sense of these things systematically, I will try and break this down using examples on a Wardley Map to illustrate a chain of valuable activities and where they might lie on an axis of technology evolution, so that we can discuss future changes, blockers and accelerators.
+
+
+### What's a Wardley Map?
+
+For those of you who are unfamiliar with Wardley Maps, I have a recording of a [talk I gave at BelTech 2018 on Wardley Maps](https://www.youtube.com/watch?v=5qglzdCHesw) and also I wrote a blog post last year on [using Wardley Maps to understand AWS re:Invent](https://willhamill.com/2018/01/21/making-sense-of-aws-reinvent) which gives an introduction into what maps are and how to create one.
+
+
+## Mapping the activities of a developer
+
   >> high level generic map
   - solve user problem, meet a need, so they keep you employed [discounting perverse incentive] or engage your business
   - all other activities are subservient to this fundamental purpose
@@ -36,7 +54,9 @@ map activities of a developer
   - implementing work which is needed for for product parts - configuration and integration 
   - implementing work which is needed for integrating commodity parts - orchestration, selection
   - identify work we do which we have to do, and work we do which we want to do
-  - value chain: new features, new products
+  
+### The Value Chain
+- value chain: new features, new products
     - breaking problem into components
     - developing the system
       - writing new code for custom parts
@@ -49,34 +69,56 @@ map activities of a developer
       - managing use of commodity parts
         - configuration of services
         - orchestration of commodity parts
+    - execute code
+      - compute platform
+      >> intentionally abbreviated chain here, not focusing on operation as much as development
     - understanding business domain
       - understanding business vertical & customer context
     - evaluating products
       - understanding products and services available
 
-undifferentiated heavy lifting being reduced
+## The Map
+
+- Overlaying the chain of activities and dependencies onto the map, and moving the components into the areas that I think best suit the level of innovation versus commodity effort, we can then create the basic map.
+
+- Describe each part and why it lives where it lives on the evolution axis
+
+## Using the Map
+
+- Getting this far means we can start to have debates about the placement of components, what it means that they are in that position and what it would mean if they moved. Generally speaking, most things move to the right as over time they become commoditised, so how might that impact the practices and skills of our software developer?
+
+### Undifferentiated heavy lifting being reduced
   >> examples of map for sentiment analysis before AWS Comprehend and after
   - parts we have to do but which are low value are often more commoditisable
     - people build generic service from other generic services and solve generic problems
 
-glue code being reduced to configuration
-  - custom effort which exists lower down between commodity/product parts will be eaten by platforms
+### Glue code being reduced to configuration
+  - Custom effort which exists lower down between commodity/product parts will be eaten by platforms
       - AWS, Azure etc will eat these parts, especially product integration/configuration/management
   - innovate, leverage, commoditise being done by platform providers not just on products to managed services
 
-dependency on deconstruction of problem into solved problems and unsolved problems
-  - lots of value in having involvement in breaking down problem into one of composition
+### Similar patterns can be observed with the code execution sub-chain
+  - code execution depends on packaging, state management, scaling, operational metrics etc etc
+  - all of these things are becoming more commoditised at varying levels
+  - k8s managed services taking a lot of infra with it, though creates its own additional work
+  - AWS Lambda takes a great deal more things off to the right
+  - can use same patterns for identifying and reacting to this if you are in the operations space
+  - move up the chain towards observability of existing platforms, more in configuration and integration
 
-increased dependency on composition of solved parts
-  - with increased commoditisation, proportionally more work will be in integration and building on top
+### Deconstruction of problem into solved problems and unsolved problems
+  - There is lots of value in having involvement in breaking down problem into one of composition. Making sense of the things needed to meet the user need will make parts of the decision-making easier so you can take advantage of existing services and commodities to avoid wasting time and money.
+  - Understanding which parts exist already and what would make them feasible or infeasible to adopt is very useful. Part of this is understanding you gain from experience of building systems, and part of it you get from doing analysis and investigation into what are the new 'hot' languages or practices or tools; into actively considering alternatives to the solutions you already know. Keeping up to date with the tech landscape is more than a full time job.
+  - In fact being able to use Wardley Maps to help directly identify the types of components needed to meet a user need and to then be able to show which parts are custom vs commodity can help with the business cases for future work.
 
-business domain knowledge still remains
-  - translating someone's problems into a definition we can agree on and deciding which parts to solve is very hard
-  - parts that are unlikely to go away are tied closest to the problem domain
-  - parts that are unique to your problem are least appetising for other people to try and commoditise
-    - unless they are a direct competitor in your exact target market
-  - overly generic systems and no-code works only for parts of the problem in the generic area
-    - writing code isn't going away, but writing code to turn XML into JSON certainly would
+### Increased dependency on composition of solved parts
+  - I expect this will shift in weight from writing a custom made application and pulling two libraries into it and co-ordinating the calls and marshalling data into the different formats, to something more like configuring the plugin for one product to make it export data to the other product's API.
+  - With increased commoditisation, proportionally more work will be in integration and building on top. However changing from owning the execution context of that integration within your application to having to deal with it being externalised means an increase in demand for skills in things like undertanding integration patterns, in building tolerant clients with retry logic, in creating resilient server endpoints which produce data streams from multiple regions, and figuring out the correct way to determine if the integrations have failed and how to monitor/alert on that.
+
+### Business domain knowledge still remains mostly on the left
+  - Translating someone's problems into a definition we can agree on that can be expressed either with code or with composition of components, and deciding which parts to solve ourselves is actually very hard.
+  - The parts that are unique to your problem domain are least appetising for other people to try and commoditise, unless they are a direct competitor in your exact target market. Even so, specificity to your approach or customer is going to stymie any attempt at external parties competing on this. If you're working out what kind of documentation requirements to tell a user to supply in support of their first passport application, based on the current governmental policy and the current state of the user's application and the circumstances in which they are applying, this is not likely to be something that is suitable for others to attempt to commoditise. Amazon Elastic Intelligent Passport Documentation Service seems pretty unlikely.
+  - If however you're spending a large amount of time writing logic (and unit tests, right?) for a component in an insurance quoting system that calculates compound interest on a recurring missed premium payment then you're in 'there's a library on npm for that' territory.
+  - Every so often we hear the threats of the 'low code' or 'no code' platforms, offering business users "configurability" without developers. These systems work for overly generic use cases, for the 'form builder' type of applications and going off the beaten track tends to result in pain and suffering. Some businesses, especially as these things improve in complexity and configurability, will take advantage of these but the more complex they get then the closer they become to simply a DSL over another programming language. A wise man once said 'DSL means write code in one language and read stack traces in another'. Writing code isn't going to go away, but writing code to turn an XML object into a JSON object and other equally low-customer-value type stuff certainly should.
 
 if you get it wrong, someone else will figure out how to compose it better and replace your custom work
   - reassess where the parts you've built really are on evolution scale
@@ -94,18 +136,22 @@ blockers, accelerators such as FUD, resistance to change, NIH, accelerators are 
   - focus on how demands from business and efficiency vs competitors are likely to remain as accelerators
   - also use of new tools and platforms are able to accelerate previously difficult adoption
 
-beware of optimising for local maxima
+### Beware of optimising for local maxima
   - what are the bottlenecks on getting value to the customer
   - if you improve something that's not really the bottleneck it's not an improvement
   - doing faster something that can be avoided entirely is still waste
   - sometimes the wasteful things are really technically _interesting_ 
     - (e.g. creating your own FaaS platform with Firecracker)
 
-abusing inertia and FUD to stay in comfort zone & lock in customer will backfire
+### Don't take the easy way out
+  - it's possible to keep on peddling the same stuff without learning new skills or practices
+  - you can abuse the customer/your employer's inertia, and spread FUD to stay in your comfort zone
+  - this will implicitly box the customer in to things you can already do
+  - this will backfire
   - eventually they'll want to move on and they'll not think you have skills or aptitude
-  - Jevons 'paradox applies, if you solve their problems faster, end projects sooner, they'll have more budget to spend on more work with you and all the more reason to feel confident in doing so when they see results
+  - Jevons' paradox applies, if you solve their problems faster, end projects sooner, they'll have more budget to spend on more work with you and all the more reason to feel confident in doing so when they see results
 
-for your career as a developer what does this mean
+### For your career as a developer what does this mean
   - you're going to be learning another set of new frameworks every few years
   - custom development won't go away, but for non-unique domain problems will definitely diminish
   - the further away from customer problems the more likely your work to be automated or replaced
@@ -114,7 +160,13 @@ for your career as a developer what does this mean
   - the act of turning an architecture diagram into code will probably become more common
   - understanding why or why not to implement something is not easily inferred by a machine
 
-hot take
+#### Caveats
+  - Someone's gotta turn undifferentiated heavy lifting into services, so someone is doing custom/genesis work in turning product work into commodity and setting up automatic region-distributed multi-tenancy and all that.
+  - Working on difficult engineering and ops problems _at_ Microsoft/Azure/etc no doubt is highly specialised work, but their users are not retail insurance clients; their users are the developers, IT operations and engineering directors from those retail insurance providers who are choosing to take a particular approach to technology and want to use the platform to build fastert's innovative for what top level user needs it is solving and how you stay ahead of the creeping commoditisation
+  - If you're working on a product used in a container orchestration system which builds on or alongside k8s, and your core business is that you intend to release it as a product/service, and you know how to avoid being eaten by a provider or being replaced with a feature bump, all power to you.
+  - However, if you're working setting up your own k8s based container orchestration system for your organisation which is in, say, retail insurance, then the odds are fairly good that you're doing work which has already been replaced by platform providers.
+
+## Hot take 🔥
   - getting into containers right now is skating to where the puck is
   - getting into serverless right now is skating to where the puck is going... to some extent
   - depends on your desired customer and how far long tech adoption curve they are
