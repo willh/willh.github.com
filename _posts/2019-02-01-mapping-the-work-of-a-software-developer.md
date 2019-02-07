@@ -58,24 +58,44 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
 ### The Value Chain
 - value chain: new features, new products
     - breaking problem into components
+      - understanding business domain
+        - understanding business vertical & customer context
+      - build vs buy decisions
+        - understanding products and services available
     - developing the system
       - writing new code for custom parts
-        - OSS libraries and frameworks
+        - app frameworks
+          - OSS libraries
         - domain specific code
+          - OSS libraries
+            - package manager
+            - discoverability
+            - dependency checking
+          - custom libraries
+            - as above
       - writing glue code for integrating products
         - defining interfaces
+          - problem-specific constraints
+          - open standards
         - writing clients for standard interfaces
-        - scheduling, transporting data
+          - open standards
+          - client library
+            - OSS libraries
+        - scheduling, transforming data
+          - data format transformation
+          - scheduled task management
       - managing use of commodity parts
         - configuration of services
+          - configuration management
         - orchestration of commodity parts
+          - ???
     - execute code
       - compute platform
       >> intentionally abbreviated chain here, not focusing on operation as much as development
-    - understanding business domain
-      - understanding business vertical & customer context
-    - evaluating products
-      - understanding products and services available
+    - testing
+      - test scenarios
+      - test runner
+      >> intentionally abbreviated chain here, not focusing on testing which is similar to development
 
 ## The Map
 
@@ -124,6 +144,20 @@ if you get it wrong, someone else will figure out how to compose it better and r
   - reassess where the parts you've built really are on evolution scale
     - if you are building custom something which is widely productised/service based, you are generating waste
     - and you are also being less competitive; other people can solve the problem faster
+
+### Moving up the chain
+
+  - ILC happens and then similar patterns repeat themselves
+  - e.g. writing code and dependency management
+    - moves up chain and some generic code gone
+    - due to changes in execution platform, rebuiding of similar existing components further up
+    - e.g. sharing code between lambdas, discovering previously created lambda apps
+    - as these start as custom work on top of new lambda platform they too get commoditised as ecosystem tooling catches up
+    - lambda layers, Serverless Application Repository same as maven/Gitlab/npm
+    - through composability more things become possible with generic components
+    - previously unlikely for all permutations of components X,Y,Z to be created as a product
+    - but now all three sub-components are available and you can build that 'product' yourself
+  - means when adopting new things, expect some additional glue necessary while rest of landscape adjusts to new baseline
 
 blockers, accelerators such as FUD, resistance to change, NIH, accelerators are demands from business, ease of tools
   - for the parts that you do see as potentially custom, identify are they custom *here* or custom everywhere?
