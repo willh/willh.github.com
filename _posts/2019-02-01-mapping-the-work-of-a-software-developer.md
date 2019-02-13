@@ -54,6 +54,10 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
   - implementing work which is needed for for product parts - configuration and integration 
   - implementing work which is needed for integrating commodity parts - orchestration, selection
   - identify work we do which we have to do, and work we do which we want to do
+  - for purposes of making things simpler, we will look at _development_ activities and not _operational_ activities
+  - testing activities are similar (writing test code, deciding which parts to test, which parts to use libraries, etc) so planning to leave these out of the scope of the current exercise
+  - by all means, do the same thing for operational or test-oriented activities and responsibilities
+  - you might find similar trends, with operational work experiencing heavy pressure on productising/commoditising in particular
   
 ### The Value Chain
 - value chain: new features, new products
@@ -157,8 +161,12 @@ if you get it wrong, someone else will figure out how to compose it better and r
     - through composability more things become possible with generic components
     - previously unlikely for all permutations of components X,Y,Z to be created as a product
     - but now all three sub-components are available and you can build that 'product' yourself
-  - means when adopting new things, expect some additional glue necessary while rest of landscape adjusts to new baseline
+    - dependency checking easier with OWASP DC, npm audit, Github built-in
+    - for lambda functions you can do some of this as part of the build process
+    - might Serverless Application Repository be extended soon to do the same to SAR apps?
+  - when adopting new things, expect some additional glue necessary while rest of landscape adjusts to new baseline
 
+### Adapting to change
 blockers, accelerators such as FUD, resistance to change, NIH, accelerators are demands from business, ease of tools
   - for the parts that you do see as potentially custom, identify are they custom *here* or custom everywhere?
   - the parts which are your business' differentiator will probably be truly genesis/custom
@@ -166,7 +174,7 @@ blockers, accelerators such as FUD, resistance to change, NIH, accelerators are 
   - but if those parts are going to change what kind of barriers would there be to that change or adoption?
     - not everyone wants to constantly rebuild all their currently running systems
     - but also lots of inertia, blockers, decelerators
-      - FID, NIH, etc
+      - FUD, NIH, etc
   - focus on how demands from business and efficiency vs competitors are likely to remain as accelerators
   - also use of new tools and platforms are able to accelerate previously difficult adoption
 
@@ -193,6 +201,14 @@ blockers, accelerators such as FUD, resistance to change, NIH, accelerators are 
   - stay further up the value chain, don't shy away from business people or architecture decisions
   - the act of turning an architecture diagram into code will probably become more common
   - understanding why or why not to implement something is not easily inferred by a machine
+
+### Also
+  - when enjoying productivity with abstractions you should probably still understand one layer below
+  - not just for finding the best time to use the abstractions, or to deal with leaks (they will leak)
+  - but also to have an ear to the ground for the next shift underneath that might affect your area
+  - if you're sitting pretty on containers and k8s for the last three years as a market leader but haven't heard of serverless then you're missing the next shift
+  - find your own niche, with a bias towards up and to the left if you want newer problems and innovative areas
+  - working dragging people to the right is where a lot of effort will remain; understand what you want
 
 #### Caveats
   - Someone's gotta turn undifferentiated heavy lifting into services, so someone is doing custom/genesis work in turning product work into commodity and setting up automatic region-distributed multi-tenancy and all that.
