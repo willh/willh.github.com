@@ -3,7 +3,7 @@ layout: post
 title: "Mapping the work of a Software Developer"
 description: "The technology landscape constantly evolves and yesterday's good practice becomes today's legacy approach. Using Wardley Maps we break up the activities involved in software development and identify patterns in changing practices. Using the maps, you can make decisions about where to grow your career or in which areas to focus learning in-demand skills."
 category: 
-tags: []
+tags: ["wardley maps"]
 ---
 {% include JB/setup %}
 
@@ -138,6 +138,17 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
   - I expect this will shift in weight from writing a custom made application and pulling two libraries into it and co-ordinating the calls and marshalling data into the different formats, to something more like configuring the plugin for one product to make it export data to the other product's API.
   - With increased commoditisation, proportionally more work will be in integration and building on top. However changing from owning the execution context of that integration within your application to having to deal with it being externalised means an increase in demand for skills in things like undertanding integration patterns, in building tolerant clients with retry logic, in creating resilient server endpoints which produce data streams from multiple regions, and figuring out the correct way to determine if the integrations have failed and how to monitor/alert on that.
 
+### No-code, Low-code, Form Builders
+  - increased productisation of custom work which is very generic
+  - 'form builder' might eat up some of the work you were hand coding for 'capture 5 fields to DB' and 'upload a file'
+  - not likely to have a drop down menu to select 'combine blah blah financial factors with compound interest'
+  - things that promise business people to configure and not need 'coders'
+  - misses the valuable cases, the domain specific cases
+  - also means that building one of these for your business needs to be super highly justifiable
+    - especially when balancing cost of making a product that's sufficiently generic to be useful against making a thing that has so many low-reused functions
+    - can likewise be easier to decompose into reuse/service based parts and custom work
+  - so if you've got skills in higher up areas then not much to worry about when basic things commoditised
+
 ### Business domain knowledge still remains mostly on the left
   - Translating someone's problems into a definition we can agree on that can be expressed either with code or with composition of components, and deciding which parts to solve ourselves is actually very hard.
   - The parts that are unique to your problem domain are least appetising for other people to try and commoditise, unless they are a direct competitor in your exact target market. Even so, specificity to your approach or customer is going to stymie any attempt at external parties competing on this. If you're working out what kind of documentation requirements to tell a user to supply in support of their first passport application, based on the current governmental policy and the current state of the user's application and the circumstances in which they are applying, this is not likely to be something that is suitable for others to attempt to commoditise. Amazon Elastic Intelligent Passport Documentation Service seems pretty unlikely.
@@ -167,11 +178,15 @@ if you get it wrong, someone else will figure out how to compose it better and r
   - when adopting new things, expect some additional glue necessary while rest of landscape adjusts to new baseline
 
 ### Adapting to change
-blockers, accelerators such as FUD, resistance to change, NIH, accelerators are demands from business, ease of tools
+  - identify blockers & accelerators such as FUD, resistance to change, NIH
+  - accelerators are demands from business, improved ease of use of tools, more demand due to something popular built on top
   - for the parts that you do see as potentially custom, identify are they custom *here* or custom everywhere?
+  - map out parts that are custom in the industry, not in your org (lead the target, shoot where it is now)
   - the parts which are your business' differentiator will probably be truly genesis/custom
-  - the other parts are maybe not really
-  - but if those parts are going to change what kind of barriers would there be to that change or adoption?
+  - the other parts are maybe not really custom
+    - decompose the problem to identify which parts really really are custom
+    - [example of postcode lookup from CO recently]
+  - if those parts are going to change what kind of barriers would there be to that change or adoption?
     - not everyone wants to constantly rebuild all their currently running systems
     - but also lots of inertia, blockers, decelerators
       - FUD, NIH, etc
