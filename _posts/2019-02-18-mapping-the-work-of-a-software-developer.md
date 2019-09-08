@@ -11,13 +11,21 @@ developer career wardley map
   - Tweet length-summary of purpose and goal
   >> headline image of Wardley Map showing some dev skill stuff
 
-## Why
+### Plus ça change
 
-Some of these thoughts about how to use [Wardley Maps](https://www.slideshare.net/swardley/an-introduction-to-wardley-maps) have been kicking around in my head for some time, crystallising after reading [Forrest Brazeal's great post](https://forrestbrazeal.com/2019/01/16/cloud-irregular-the-creeping-it-apocalypse/) about the changing roles in an ever evolving IT landscape.
+- What's changing? New frameworks, new libraries, new languages
+- We're still writing code, aren't we?
+- True but how has it changed?
+- Moving up the stack - more splitting requests across two DBs based on staleness and less hand rolled linked lists
+- Useful to look at which parts have changed and why, identify future changes, do some intentional career planning
+
+## Why map?
+
+Some of these thoughts about how to use [Wardley Maps](https://www.slideshare.net/swardley/an-introduction-to-wardley-maps) have been kicking around in my head for some time, crystallising after reading [Forrest Brazeal's post](https://forrestbrazeal.com/2019/01/16/cloud-irregular-the-creeping-it-apocalypse/) about the changing roles in an ever evolving IT landscape.
 
 Evolution of technology and practices continues but what of the people who make their living building with, advising about, maintaining and operating that technology? What proportion, for example, of average IT sysadmin work now involves plugging in servers vs keeping an eye on AWS Cloudwatch alarms and Grafana dashboards?
 
-This evolution means a general move of previously custom work to managing of products to service abstraction removing almost all work entirely. Building on the previous example, we can see over the years that this has resulted in the role considered to be low-leve detailed technical work has radically changed in nature, e.g. installing a database system by purchasing and installing a custom server and configuring a database engine on top, to installing a DB product bundle on a VM, to using a tool to virtually provision a whole load-balanced database cluster and backup (such as Amazon RDS) or as far as setting up permissions for an application to communicate with a 'serverless DB' (such as Azure Cosmos DB) with no actual server instances or database engine patches or anything of the sort.
+This evolution means a general move of previously custom work to managing of products to service abstraction removing almost all work entirely. Building on the previous example, we can see over the years that this has resulted in the role considered to be low-level detailed technical work has radically changed in nature, e.g. installing a database system by purchasing and installing a custom server and configuring a database engine on top, to installing a DB product bundle on a VM, to using a tool to virtually provision a whole load-balanced database cluster and backup (such as Amazon RDS) or as far as setting up permissions for an application to communicate with a 'serverless DB' (such as Azure Cosmos DB) with no actual server instances or database engine patches or anything of the sort.
 
 What does this mean for people with skills in managing hardware racks and installing OS patches? Well, if you work with any people in 'devops' at the moment, just ask them - quite a lot of people with AWS and Azure infrastructure automation skills have backgrounds in systems administration and IT operations and they gradually or abruptly learned new skills and gained experience in new practices reflecting the 'new normal' of the ever-raising level of abstraction.
 
@@ -29,7 +37,7 @@ Each one of these changes can be either gradual or abrupt but in order for you t
 
 ### Staying valuable
 
-If you ignore the evolution trends in tech then generally speaking you'll be at risk of having your work cannibalised by others offering products to do the things you do by hand, or services that appear to do away with the thing you're an expert in altogether. Practices and tecnologies are commoditised in increasing amounts, so to stay ahead you need to move up the value chain, like the sysadmins who picked up the tools of virtualisation automation.
+If you ignore the evolution trends in tech then generally speaking you'll be at risk of having your work cannibalised by others offering products to do the things you do by hand, or services that appear to do away with the thing you're an expert in altogether. Practices and technologies are commoditised in increasing amounts, so to stay ahead you need to move up the value chain, like the sysadmins who picked up the tools of virtualisation automation.
 
 To do this, it will help you to understand which parts of the technology landscape are being commoditised, or might already be outside your org that you haven't yet had a chance to see.
 
@@ -105,7 +113,7 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
 
 - Overlaying the chain of activities and dependencies onto the map, and moving the components into the areas that I think best suit the level of innovation versus commodity effort, we can then create the basic map.
 
-- Describe each part and why it lives where it lives on the evolution axis
+- Describe significant parts and why it lives where it lives on the evolution axis
 
 ## Using the Map
 
@@ -120,6 +128,7 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
   - Custom effort which exists lower down between commodity/product parts will be eaten by platforms
       - AWS, Azure etc will eat these parts, especially product integration/configuration/management
   - innovate, leverage, commoditise being done by platform providers not just on products to managed services
+  - examples of glue code automatically generated e.g. AWS Glue
 
 ### Similar patterns can be observed with the code execution sub-chain
   - code execution depends on packaging, state management, scaling, operational metrics etc etc
@@ -136,18 +145,7 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
 
 ### Increased dependency on composition of solved parts
   - I expect this will shift in weight from writing a custom made application and pulling two libraries into it and co-ordinating the calls and marshalling data into the different formats, to something more like configuring the plugin for one product to make it export data to the other product's API.
-  - With increased commoditisation, proportionally more work will be in integration and building on top. However changing from owning the execution context of that integration within your application to having to deal with it being externalised means an increase in demand for skills in things like undertanding integration patterns, in building tolerant clients with retry logic, in creating resilient server endpoints which produce data streams from multiple regions, and figuring out the correct way to determine if the integrations have failed and how to monitor/alert on that.
-
-### No-code, Low-code, Form Builders
-  - increased productisation of custom work which is very generic
-  - 'form builder' might eat up some of the work you were hand coding for 'capture 5 fields to DB' and 'upload a file'
-  - not likely to have a drop down menu to select 'combine blah blah financial factors with compound interest'
-  - things that promise business people to configure and not need 'coders'
-  - misses the valuable cases, the domain specific cases
-  - also means that building one of these for your business needs to be super highly justifiable
-    - especially when balancing cost of making a product that's sufficiently generic to be useful against making a thing that has so many low-reused functions
-    - can likewise be easier to decompose into reuse/service based parts and custom work
-  - so if you've got skills in higher up areas then not much to worry about when basic things commoditised
+  - With increased commoditisation, proportionally more work will be in integration and building on top. However changing from owning the execution context of that integration within your application to having to deal with it being externalised means an increase in demand for skills in things like undertanding integration patterns, in building tolerant clients, in creating resilient server endpoints which produce data streams from multiple regions, and figuring out the correct way to determine if the integrations have failed and how to monitor/alert on that.
 
 ### Business domain knowledge still remains mostly on the left
   - Translating someone's problems into a definition we can agree on that can be expressed either with code or with composition of components, and deciding which parts to solve ourselves is actually very hard.
@@ -160,9 +158,19 @@ if you get it wrong, someone else will figure out how to compose it better and r
     - if you are building custom something which is widely productised/service based, you are generating waste
     - and you are also being less competitive; other people can solve the problem faster
 
-### Moving up the chain
+#### No-code, Low-code, Form Builders
+  - increased productisation of custom work which is very generic
+  - 'form builder' might eat up some of the work you were hand coding for 'capture 5 fields to DB' and 'upload a file'
+  - not likely to have a drop down menu to select 'combine blah blah financial factors with compound interest'
+  - things that promise business people to configure and not need 'coders'
+  - misses the valuable cases, the domain specific cases
+  - also means that building one of these for your business needs to be super highly justifiable
+    - especially when balancing cost of making a product that's sufficiently generic to be useful against making a thing that has so many low-reused functions
+    - can likewise be easier to decompose into reuse/service based parts and custom work
+  - so if you've got skills in higher up areas then not much to worry about when basic things commoditised
 
-  - ILC happens and then similar patterns repeat themselves
+### Moving up the chain
+  - ILC (Innovate, Leverage, Commoditise) happens and then similar patterns repeat themselves
   - e.g. writing code and dependency management
     - moves up chain and some generic code gone
     - due to changes in execution platform, rebuiding of similar existing components further up
@@ -175,6 +183,7 @@ if you get it wrong, someone else will figure out how to compose it better and r
     - dependency checking easier with OWASP DC, npm audit, Github built-in
     - for lambda functions you can do some of this as part of the build process
     - might Serverless Application Repository be extended soon to do the same to SAR apps?
+    - Github are doing it now for default-layout NodeJS apps - if you build a thing to do it, you're at risk
   - when adopting new things, expect some additional glue necessary while rest of landscape adjusts to new baseline
 
 ### Adapting to change
@@ -204,39 +213,29 @@ if you get it wrong, someone else will figure out how to compose it better and r
   - it's possible to keep on peddling the same stuff without learning new skills or practices
   - you can abuse the customer/your employer's inertia, and spread FUD to stay in your comfort zone
   - this will implicitly box the customer in to things you can already do
-  - this will backfire
-  - eventually they'll want to move on and they'll not think you have skills or aptitude
+  - this will look sustainable for a while as the late majority take longer to adapt
+  - this will backfire: eventually they'll want to move on and they'll not think you have skills or aptitude
   - Jevons' paradox applies, if you solve their problems faster, end projects sooner, they'll have more budget to spend on more work with you and all the more reason to feel confident in doing so when they see results
 
-### For your career as a developer what does this mean
-  - you're going to be learning another set of new frameworks every few years
-  - custom development won't go away, but for non-unique domain problems will definitely diminish
-  - the further away from customer problems the more likely your work to be automated or replaced
-  - so unless you are the people automating this or replacing this you might be in trouble
-  - stay further up the value chain, don't shy away from business people or architecture decisions
-  - the act of turning an architecture diagram into code will probably become more common
-  - understanding why or why not to implement something is not easily inferred by a machine
+### For your career as a software engineer what does this mean
+  - As you've probably picked up - you're going to be learning another set of new frameworks every few years, with increasing levels of abstraction. Custom development won't go away, but for non-unique domain problems will definitely diminish as productised solutions become more easily integrated. The further away from the customer's specific problems you are, the more likely your work to be automated or replaced entirely. Unless you are the people automating it or replacing it you might be in trouble.
+  
+  As a software engineer, staying further up the value chain means don't shy away from business people or architecture decisions. The promised land of turning an architecture diagram into code will probably become closer to reality in more useful cases, but this will reflect the generic or lower value parts at first. Understanding why or why not to implement something is not as easily inferred by a machine - this is better understood by someone who understands the technical details but also the nature of the problem and the context and its constraints.
 
-### Also
-  - when enjoying productivity with abstractions you should probably still understand one layer below
-  - not just for finding the best time to use the abstractions, or to deal with leaks (they will leak)
-  - but also to have an ear to the ground for the next shift underneath that might affect your area
-  - if you're sitting pretty on containers and k8s for the last three years as a market leader but haven't heard of serverless then you're missing the next shift
-  - find your own niche, with a bias towards up and to the left if you want newer problems and innovative areas
-  - working dragging people to the right is where a lot of effort will remain; understand what you want
+  While enjoying the productivity gains from new abstractions you should probably still understand one layer below: not just for finding the best time to use the abstractions, or to deal with leaks (they will leak), but also to have an ear to the ground for the next shift underneath that might affect your area. If you're sitting pretty on containers and k8s for the last three years as a market leader but haven't heard of serverless then you're missing the next shift. Find your own niche, with a bias towards up and to the left if you want newer problems and innovative areas. Working on enabling people to move to the right is where a lot of effort will remain, so understand what you want.
 
 #### Caveats
-  - Someone's gotta turn undifferentiated heavy lifting into services, so someone is doing custom/genesis work in turning product work into commodity and setting up automatic region-distributed multi-tenancy and all that.
-  - Working on difficult engineering and ops problems _at_ Microsoft/Azure/etc no doubt is highly specialised work, but their users are not retail insurance clients; their users are the developers, IT operations and engineering directors from those retail insurance providers who are choosing to take a particular approach to technology and want to use the platform to build fastert's innovative for what top level user needs it is solving and how you stay ahead of the creeping commoditisation
-  - If you're working on a product used in a container orchestration system which builds on or alongside k8s, and your core business is that you intend to release it as a product/service, and you know how to avoid being eaten by a provider or being replaced with a feature bump, all power to you.
-  - However, if you're working setting up your own k8s based container orchestration system for your organisation which is in, say, retail insurance, then the odds are fairly good that you're doing work which has already been replaced by platform providers.
+  Someone's gotta turn undifferentiated heavy lifting into services: while it always happens as technology evolves, it doesn't evolve by itself. Someone is doing custom/genesis work in turning product work into commodity and setting up that check-box automatic region-distributed multi-tenancy and all that. The cloud computing resources we now take for granted only exist because different sets of people worked on making those abstractions and those generic solutions, so I don't mean to imply 'innovation' only happens on the far left of the map.
 
-## Hot take 🔥
-  - getting into containers right now is skating to where the puck is
-  - getting into serverless right now is skating to where the puck is going... to some extent
-  - depends on your desired customer and how far long tech adoption curve they are
-  - there's still money to be made in managing VMs in customers slower to move
-  - but more people have those skills, and those customers will eventually want to move
-  - embrace the adoption of abstractions, though know a bit about where they leak to make good evaluations
-  - treat NIH/sunk cost with extreme skepticism
-  - keep up with industry trends and be wary of getting into a rut and rejecting change
+  Working on difficult engineering and ops problems _at_ Microsoft/Azure/etc no doubt is highly specialised work, but their users are not retail insurance clients; their users are the developers, IT operations and engineering directors from those retail insurance providers who are choosing to take a particular approach to technology and want to use the platform to build faster. _Their_ users are people who are building on top, and they go to great pains to understand their users and their needs. They aren't kidding themselves that the customer of their interesting scheduling framework are finance industry execs; their customers are the people who work to build something of relevance on top of it. Know who your users really are and whether you're meeting their needs by what you're building. 
+
+  [part missing] it's innovative for what top level user needs it is solving and how you stay ahead of the creeping commoditisation
+  
+  If you're working on a product used in a container orchestration system which builds on or alongside k8s, and your core business is that you intend to release it as a product/service, and you know how to avoid being eaten by a provider or being replaced with a feature bump - or indeed if you intend to become just attractive enough to get acquired by a provider who wants to improve the value of their service by integrating what you do - then all power to you.
+
+## Hot takes 🔥
+  Getting into containers right now is skating to where the puck is. Getting into serverless right now is skating to where the puck is going... to some extent. This depends on your desired customer and how far along the adoption curve they are. There's still money to be made in managing VMs in customers slower to move but more people have those skills, and those customers will eventually want to move so you might have a lot of competition for the type of work that has a Best Before Date attached.
+
+  There is less competition on the left side as skills have not yet diffused to commodity, so make yourself more valuable and get more career prospects by staying on the left side of mass-market. Far too far left and you might miss: investing in skills that don't make it to adoption; but roll the dice if you want or learn how to sense the landscape of the industry and make better bets than others!
+
+  Generally, stay abreast of industry trends and be wary of getting into a rut and rejecting change. Treat 'not invented here' and the sunk cost fallacy with extreme skepticism so you know when you're suffering from inertia that can prevent you from moving left and up the value chain. Embrace the adoption of abstractions, ensuring you know a bit about where they leak so that you can make good evaluations of options.
