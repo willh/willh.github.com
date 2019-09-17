@@ -54,20 +54,16 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
 ## Mapping the activities of a developer
 
   >> high level generic map
-  - solve user problem, meet a need, so they keep you employed [discounting perverse incentive] or engage your business
-  - all other activities are subservient to this fundamental purpose
-  - part of meeting user's need is computer system or application
-  - breaking down application into components, understanding business domain and tech landscape
-  - implementing work which is needed for custom parts - new dev
-  - implementing work which is needed for for product parts - configuration and integration 
-  - implementing work which is needed for integrating commodity parts - orchestration, selection
-  - identify work we do which we have to do, and work we do which we want to do
-  - for purposes of making things simpler, we will look at _development_ activities and not _operational_ activities
-  - testing activities are similar (writing test code, deciding which parts to test, which parts to use libraries, etc) so planning to leave these out of the scope of the current exercise
-  - by all means, do the same thing for operational or test-oriented activities and responsibilities
-  - you might find similar trends, with operational work experiencing heavy pressure on productising/commoditising in particular
+  The starting point is that we're doing what we do to solve a problem someone has: to meet a need that presumably can be fulfilled via computer systems.
+  - All other activities are subservient to this fundamental purpose. The customer/employer/end user wants to use what you'll build to solve a problem they have. That's why you're employed!
+  - In our domain, we're assuming that part of meeting that user's need is implementing some computer system, service or application.
+  - To develop this system and meet their needs, we need to break down what is needed into components, understanding the business domain and technology landscape.
+  - Broadly I've divided this up into three main sections: new work which is needed for custom parts, work which is needed for for product parts (configuration and integration), and work which is needed for integrating commodity parts (orchestration and selection). 
+  - For the purposes of making things simpler, in this discussion I will look at _development_ activities and not _operational_ activities. Testing activities are similar enough to development here (writing test code, deciding which parts to test, which parts to use libraries, etc) so I'm planning to leave these out of the scope of this discussion too.
+  - By all means, do the same thing for operational or test-oriented activities and explore those areas as well. You will find similar trends, with operational work experiencing heavy pressure on productising/commoditising in particular.
   
 ### The Value Chain
+Let's begin by breaking down the chain of components and sub-components involved in this work to illustrate the activities and see how they change as technology changes.
 - value chain: new features, new products
     - breaking problem into components
       - understanding business domain
@@ -130,6 +126,13 @@ For those of you who are unfamiliar with Wardley Maps, I have a recording of a [
   - innovate, leverage, commoditise being done by platform providers not just on products to managed services
   - examples of glue code automatically generated e.g. AWS Glue
 
+### The boring parts of building will be consumed
+  - even the process of updating default configurations, opening a pull request, running unit tests, etc will be automated
+  - all of these parts of the process are standardised at most companies and for some activities require little custom work
+  - behold, this interaction recently on GitHub where a bot updated a dependency, another bot built it and another merged it
+    - https://twitter.com/gabro27/status/1173547934132178944
+  - this worked because it was generic, automatable, low-value work
+
 ### Similar patterns can be observed with the code execution sub-chain
   - code execution depends on packaging, state management, scaling, operational metrics etc etc
   - all of these things are becoming more commoditised at varying levels
@@ -162,12 +165,10 @@ if you get it wrong, someone else will figure out how to compose it better and r
   - increased productisation of custom work which is very generic
   - 'form builder' might eat up some of the work you were hand coding for 'capture 5 fields to DB' and 'upload a file'
   - not likely to have a drop down menu to select 'combine blah blah financial factors with compound interest'
-  - things that promise business people to configure and not need 'coders'
-  - misses the valuable cases, the domain specific cases
-  - also means that building one of these for your business needs to be super highly justifiable
-    - especially when balancing cost of making a product that's sufficiently generic to be useful against making a thing that has so many low-reused functions
+  - We've seen and heard of tools that promise business people to configure and not need 'coders', yet inevitably the domain specific language they use is either too generic to be valuable or so powerful that it is code (just with crappy tooling) and requires people who understand code to write and verify it. The very generic parts miss the valuable cases, the domain specific cases you need to write yourself anyway.
+  - Given there are lots of things out there that'll take the very generic case and make it easier, also means that building one of these for your business needs to be super highly justifiable. The route to justifying this has to be by making it domain-specific, especially when balancing the cost of making a product that's sufficiently generic to be reusable against making a thing that has so many low-reused functions
     - can likewise be easier to decompose into reuse/service based parts and custom work
-  - so if you've got skills in higher up areas then not much to worry about when basic things commoditised
+  - Generally speaking the trend for new tools and frameworks to remove the low level glue and replace it with convention/configuration isn't going to be new to most developers, and if you've got skills in higher up areas then there's not much to worry about when these basic things become yet more commoditised. Your job is to build on top.
 
 ### Moving up the chain
   - ILC (Innovate, Leverage, Commoditise) happens and then similar patterns repeat themselves
@@ -185,6 +186,11 @@ if you get it wrong, someone else will figure out how to compose it better and r
     - might Serverless Application Repository be extended soon to do the same to SAR apps?
     - Github are doing it now for default-layout NodeJS apps - if you build a thing to do it, you're at risk
   - when adopting new things, expect some additional glue necessary while rest of landscape adjusts to new baseline
+
+### Evolution of practices
+  As practices formalise around new sets of technologies, emerging practices become 'best practices' which become uncontested standard procedures. As these practices evolve, we build inertia as the practices choke out deviation, and new practices which evolve from higher order systems build on top of these now-commoditised abstractions are treated as upstarts and usurpers. Who has a hardware testing plan when using IaaS in the cloud? Who will have a capacity plan for serverless functions when using AWS Lambda? The value changes based on how the practices change - so with serverless functions for example the focus on capacity planning shifts to surge testing and limit checking, searching for edge cases of cold starts and scaling cliffs.
+  For example, the evolution of DevOps around cloud-native development and operation of distributed systems has turned from a cutting edge conference keynote to a well-accepted industry best practice peddled by product vendors and consultants alike. Everyone who's anyone is doing DevOps now! But what happens when new practices emerge by groups of people building on top of new abstractions that DevOps has made possible? Well, take a look at what happened ITIL. It's not dead, just either used in organisations with larger estates and lower change velocity that benefit from a more predictable service management approach, or used across organisations with only one tool in their toolbox that are still struggling against DevOps and other emerging practices and wondering why they can't iterate as fast as their competitors.
+  What this means is that you should expect DevOps to follow the same pattern of other practices like ITIL and become the commodity approach to developing and operating cloud-native systems, but also that it will likewise suffer from its success and be resistant to change and to disruption by new practices that don't fit into its view of software development.
 
 ### Adapting to change
   - identify blockers & accelerators such as FUD, resistance to change, NIH
